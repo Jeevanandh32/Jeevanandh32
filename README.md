@@ -1,4 +1,4 @@
-## 👋 Hello, I'm Jeevanandh32!
+## 👋 Hello, I'm Jeevanandh Ravi
 
 ### About Me
 Highly skilled Network Engineer with expertise in designing and implementing robust network infrastructures. Proficient in configuring and optimizing multi-location networks, enhancing security, and implementing advanced routing protocols like OSPF and BGP. Experienced in deploying network security solutions, including IPSec VPNs and Fail2Ban, and ensuring high availability through redundancy features like HSRP. Adept at automation with Python and Bash, network troubleshooting using tools like Wireshark and Cisco Packet Tracer, and integrating innovative solutions, including microcontroller-based projects. Strong academic background in Telecommunication Networks with a GPA of 3.8/4, complemented by hands-on experience in R&D and multi-site network design projects.
