@@ -21,7 +21,8 @@ Highly skilled Network Engineer with expertise in designing and implementing rob
   Built a TCP-based client-server communication system in Python to handle real-time data transfer and mathematical query computation. Utilized multi-threading for scalability and implemented error handling for reliable connectivity.
 - Ad-Hoc Network Infrastructure Using Linux: https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux     
   Configured a DNS server with Bind9 for IPv4/IPv6 integration, reverse domain setups, and master-slave synchronization. Automated data backups with crontab and secure transfers to a remote server. Enhanced security using Fail2Ban, IPsec VPN, and simulated MITM attacks with ARP spoofing to identify vulnerabilities.
-- Docker-Based MySQL Server Deployment and Network Validation: Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
+- Docker-Based MySQL Server Deployment and Network Validation: https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
+Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
 
 ### 📫 How to Reach Me
 - **Email:** ravi.j@northeastern.edu
