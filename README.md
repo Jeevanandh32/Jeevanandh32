@@ -15,11 +15,11 @@ Highly skilled Network Engineer with expertise in designing and implementing rob
 - Internet Protocols and Architecture
 
 ### 🚀 Projects
-- Enhanced Multi-Site Network Design Incorporating OSPF and Redundancy Features: https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer
+- Enhanced Multi-Site Network Design Incorporating OSPF and Redundancy Features: https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer       
   Designed a multi-location network infrastructure with OSPF routing, VLAN segmentation, and redundancy features like HSRP. Implemented DHCP, enhanced network security with IPsec VPN, and optimized LAN performance using Rapid STP and EtherChannel.
 - Efficient Mathematical Query Handling via TCP Socket Protocol: https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
   Built a TCP-based client-server communication system in Python to handle real-time data transfer and mathematical query computation. Utilized multi-threading for scalability and implemented error handling for reliable connectivity.
-- Ad-Hoc Network Infrastructure Using Linux: https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux
+- Ad-Hoc Network Infrastructure Using Linux: https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux     
   Configured a DNS server with Bind9 for IPv4/IPv6 integration, reverse domain setups, and master-slave synchronization. Automated data backups with crontab and secure transfers to a remote server. Enhanced security using Fail2Ban, IPsec VPN, and simulated MITM attacks with ARP spoofing to identify vulnerabilities.
 - Docker-Based MySQL Server Deployment: Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
 
