@@ -11,8 +11,8 @@ Highly skilled Network Engineer with expertise in designing and implementing rob
 - **Operating Systems:** Windows, Linux, MacOS, VMware
 
 ### 🌱 Currently Learning
-- Communication and Network Security
-- Internet Protocols and Architecture
+- Communication and Network Security [TELE 6300]
+- Internet Protocols and Architecture [TELE 5360]
 
 ### 🚀 Projects
 - Enhanced Multi-Site Network Design Incorporating OSPF and Redundancy Features: https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer       
