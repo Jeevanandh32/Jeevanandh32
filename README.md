@@ -24,7 +24,7 @@ Highly skilled Network Engineer with expertise in designing and implementing rob
 - Docker-Based MySQL Server Deployment and Network Validation: https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
 Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
 
-### 📝 Certification
+### 📝 Certifications
  ![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
  
  Introduction to Digital Transformation - Siemens Software (https://www.credly.com/badges/e2a74f46-236a-418f-8e37-34902de8c28f/linked_in_profile) 
