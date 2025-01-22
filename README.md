@@ -4,9 +4,9 @@
 Highly skilled Network Engineer with expertise in designing and implementing robust network infrastructures. Proficient in configuring and optimizing multi-location networks, enhancing security, and implementing advanced routing protocols like OSPF and BGP. Experienced in deploying network security solutions, including IPSec VPNs and Fail2Ban, and ensuring high availability through redundancy features like HSRP. Adept at automation with Python and Bash, network troubleshooting using tools like Wireshark and Cisco Packet Tracer, and integrating innovative solutions. Strong academic background in Telecommunication Networks with a GPA of 3.8/4, complemented by hands-on experience multi-site network design projects.
 
 ### 🛠️ Technologies & Tools
-- **Scripting & Automation:** Python, Bash, Crontab, Powershell
-- **Networking:** OSPF, BGP, IPSec VPNs, Fail2Ban, HSRP, VLAN, DHCP, DNS, TCP/IP, TLS, ACL, NAT, SSH
-- **Tools:** Cisco Packet Tracer, Git, Docker, GNS3, IPAM, ANSIBLE, SolarWinds
+- **Scripting & Automation:** Python, Bash, Crontab, Powershell, Ansible
+- **Networking:** OSPF, BGP, IPSec VPNs, Fail2Ban, HSRP, VLAN, DHCP, DNS, TCP/IP, TLS, ACL, NAT, SSH, RTP, RTSP
+- **Tools:** Cisco Packet Tracer, Git, Docker, GNS3, IPAM, SolarWinds
 - **Diagnostic Tools:** ping, tracert, Network Mapper, Wireshark
 - **Operating Systems:** Windows, Linux, MacOS, VMware
 
@@ -23,6 +23,10 @@ Highly skilled Network Engineer with expertise in designing and implementing rob
   Configured a DNS server with Bind9 for IPv4/IPv6 integration, reverse domain setups, and master-slave synchronization. Automated data backups with crontab and secure transfers to a remote server. Enhanced security using Fail2Ban, IPsec VPN, and simulated MITM attacks with ARP spoofing to identify vulnerabilities.
 - Docker-Based MySQL Server Deployment and Network Validation: https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
 Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
+- Real-Time Video Streaming Server Using RTP and RTSP:
+Developed and deployed a real-time video streaming server in Kali Linux utilizing RTP and RTSP protocols to deliver smooth video playback with accurate synchronization. Configured the server to handle client commands (PLAY, PAUSE, TEARDOWN) and encapsulated video frames into RTP packets for seamless transmission. Deployed the project using Docker, ensuring scalability and ease of deployment across environments. Verified functionality using tools like VLC Media Player, Tcpdump and Wireshark, gaining hands-on experience in multimedia networking and low-latency data streaming.
+
+
 
 ### 📝 Certifications
  ![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
