@@ -23,7 +23,7 @@ Highly skilled Network Engineer with expertise in designing and implementing rob
   Configured a DNS server with Bind9 for IPv4/IPv6 integration, reverse domain setups, and master-slave synchronization. Automated data backups with crontab and secure transfers to a remote server. Enhanced security using Fail2Ban, IPsec VPN, and simulated MITM attacks with ARP spoofing to identify vulnerabilities.
 - Docker-Based MySQL Server Deployment and Network Validation: https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
 Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
-- Real-Time Video Streaming Server Using RTP and RTSP:
+- Real-Time Video Streaming Server Using RTP and RTSP: https://github.com/Jeevanandh32/Real-Time-Video-Streaming-Server-Using-RTP-and-RTSP
 Developed and deployed a real-time video streaming server in Kali Linux utilizing RTP and RTSP protocols to deliver smooth video playback with accurate synchronization. Configured the server to handle client commands (PLAY, PAUSE, TEARDOWN) and encapsulated video frames into RTP packets for seamless transmission. Deployed the project using Docker, ensuring scalability and ease of deployment across environments. Verified functionality using tools like VLC Media Player, Tcpdump and Wireshark, gaining hands-on experience in multimedia networking and low-latency data streaming.
 
 
