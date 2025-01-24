@@ -5,7 +5,7 @@ Highly skilled Network Engineer with expertise in designing and implementing rob
 
 ### 🛠️ Technologies & Tools
 - **Scripting & Automation:** Python, Bash, Crontab, Powershell, Ansible
-- **Networking:** OSPF, BGP, IPSec VPNs, Fail2Ban, HSRP, VLAN, DHCP, DNS, TCP/IP, TLS, ACL, NAT, SSH, RTP, RTSP
+- **Network and Security Protocols:** OSPF, SSH, SSL/TLS, Firewalls, WPA3, BGP, IPSec VPNs, Fail2Ban, HSRP, VLAN, DHCP, DNS, TCP/IP, TLS, ACL, NAT, SSH, RTP, RTSP
 - **Tools:** Cisco Packet Tracer, Git, Docker, GNS3, IPAM, SolarWinds
 - **Diagnostic Tools:** ping, tracert, Network Mapper, Wireshark
 - **Operating Systems:** Windows, Linux, MacOS, VMware
