@@ -6,9 +6,9 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 ### 🛠️ Technologies & Tools
 - **Scripting & Automation:** Python, Bash, Crontab, Powershell, Ansible
 - **Network and Security Protocols:** OSPF, SSH, SSL/TLS, Firewalls, WPA3, BGP, IPSec VPNs, Fail2Ban, HSRP, VLAN, DHCP, DNS, TCP/IP, TLS, ACL, NAT, SSH, RTP, RTSP
-- **Tools:** Cisco Packet Tracer, Git, Docker, GNS3, IPAM, SolarWinds
-- **Diagnostic Tools:** ping, tracert, Network Mapper, Wireshark
-- **Operating Systems:** Windows, Linux, MacOS, VMware
+- **Tools:** Cisco Packet Tracer, Git, Docker, GNS3, IPAM, PyCharm
+- **Diagnostic Tools:** ping, tracert, Network Mapper, tcpdump, Wireshark
+- **Operating Systems:** Windows, Linux, MacOS, VMware, Virtualbox
 
 ### 🌱 Currently Learning
 - Communication and Network Security [TELE 6300]
