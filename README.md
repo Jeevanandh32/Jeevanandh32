@@ -15,21 +15,40 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 - Internet Protocols and Architecture [TELE 5360]
 
 ### 🚀 Academic Projects
-- Enhanced Multi-Site Network Design Incorporating OSPF and Redundancy Features: https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer       
-  Designed a multi-location network infrastructure with OSPF routing, VLAN segmentation, and redundancy features like HSRP. Implemented DHCP, enhanced network security with IPsec VPN, and optimized LAN performance using Rapid STP and EtherChannel.
-- Efficient Mathematical Query Handling via TCP Socket Protocol: https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
-  Built a TCP-based client-server communication system in Python to handle real-time data transfer and mathematical query computation. Utilized multi-threading for scalability and implemented error handling for reliable connectivity.
-- Ad-Hoc Network Infrastructure Using Linux: https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux     
-  Configured a DNS server with Bind9 for IPv4/IPv6 integration, reverse domain setups, and master-slave synchronization. Automated data backups with crontab and secure transfers to a remote server. Enhanced security using Fail2Ban, IPsec VPN, and simulated MITM attacks with ARP spoofing to identify vulnerabilities.
-- Docker-Based MySQL Server Deployment and Network Validation: https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
-Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
-- Real-Time Video Streaming Server Using RTP and RTSP: https://github.com/Jeevanandh32/Real-Time-Video-Streaming-Server-Using-RTP-and-RTSP
-Developed and deployed a real-time video streaming server in Kali Linux utilizing RTP and RTSP protocols to deliver smooth video playback with accurate synchronization. Configured the server to handle client commands (PLAY, PAUSE, TEARDOWN) and encapsulated video frames into RTP packets for seamless transmission. Deployed the project using Docker, ensuring scalability and ease of deployment across environments. Verified functionality using tools like VLC Media Player, Tcpdump and Wireshark, gaining hands-on experience in multimedia networking and low-latency data streaming.
+**Enhanced Multi-Site Network Design Incorporating OSPF and Redundancy Features**
+  - https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer       
+  - Designed a multi-location network infrastructure with OSPF routing, VLAN segmentation, and redundancy features like HSRP. 
+  - Implemented DHCP, enhanced network security with IPsec VPN, and optimized LAN performance using Rapid STP and EtherChannel.
 
-### Self-Driven Technical Projects
+**Efficient Mathematical Query Handling via TCP Socket Protocol** 
+  - https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
+  - Built a TCP-based client-server communication system in Python to handle real-time data transfer and mathematical query computation. 
+  - Utilized multi-threading for scalability and implemented error handling for reliable connectivity.
 
+**Ad-Hoc Network Infrastructure Using Linux**
+  - https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux     
+  - Configured a DNS server with Bind9 for IPv4/IPv6 integration, reverse domain setups, and master-slave synchronization. 
+  - Automated data backups with crontab and secure transfers to a remote server. 
+  - Enhanced security using Fail2Ban, IPsec VPN, and simulated MITM attacks with ARP spoofing to identify vulnerabilities.
 
+**Docker-Based MySQL Server Deployment and Network Validation**
+  - https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
+  - Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. 
+  - Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
 
+**Real-Time Video Streaming Server Using RTP and RTSP**
+  - https://github.com/Jeevanandh32/Real-Time-Video-Streaming-Server-Using-RTP-and-RTSP
+  - Developed and deployed a real-time video streaming server in Kali Linux utilizing RTP and RTSP protocols to deliver smooth video playback with accurate synchronization. 
+  - Configured the server to handle client commands (PLAY, PAUSE, TEARDOWN) and encapsulated video frames into RTP packets for seamless transmission.
+  - Deployed the project using Docker, ensuring scalability and ease of deployment across environments.
+  - Verified functionality using tools like VLC Media Player, Tcpdump and Wireshark, gaining hands-on experience in multimedia networking and low-latency data streaming.
+
+### :dart: Self-Driven Technical Projects
+**Software-Defined Networking (SDN) for Disaster Recovery**  
+  - https://github.com/Jeevanandh32/Software-Define-Networking-SDN-for-automated-Disaster-Recovery
+  - Implemented SDN-based failover using OpenDaylight, reducing network downtime to **under 10 seconds**.
+  - Designed **automated rerouting policies** using OpenFlow rules and Python scripts.
+  - Integrated **real-time monitoring and alerting mechanisms** to detect network failures.
 
 ### 📝 Certifications
  ![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
