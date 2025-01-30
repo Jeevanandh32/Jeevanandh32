@@ -14,7 +14,7 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 - Communication and Network Security [TELE 6300]
 - Internet Protocols and Architecture [TELE 5360]
 
-### 🚀 Projects
+### 🚀 Academic Projects
 - Enhanced Multi-Site Network Design Incorporating OSPF and Redundancy Features: https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer       
   Designed a multi-location network infrastructure with OSPF routing, VLAN segmentation, and redundancy features like HSRP. Implemented DHCP, enhanced network security with IPsec VPN, and optimized LAN performance using Rapid STP and EtherChannel.
 - Efficient Mathematical Query Handling via TCP Socket Protocol: https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
@@ -25,6 +25,9 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
 - Real-Time Video Streaming Server Using RTP and RTSP: https://github.com/Jeevanandh32/Real-Time-Video-Streaming-Server-Using-RTP-and-RTSP
 Developed and deployed a real-time video streaming server in Kali Linux utilizing RTP and RTSP protocols to deliver smooth video playback with accurate synchronization. Configured the server to handle client commands (PLAY, PAUSE, TEARDOWN) and encapsulated video frames into RTP packets for seamless transmission. Deployed the project using Docker, ensuring scalability and ease of deployment across environments. Verified functionality using tools like VLC Media Player, Tcpdump and Wireshark, gaining hands-on experience in multimedia networking and low-latency data streaming.
+
+### Self-Driven Technical Projects
+
 
 
 
