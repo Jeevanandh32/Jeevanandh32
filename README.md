@@ -6,7 +6,7 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 ### 🛠️ Technologies & Tools
 - **Scripting & Automation:** Python, Bash, Crontab, Powershell, Ansible
 - **Network and Security Protocols:** OSPF, SSH, SSL/TLS, Firewalls, WPA3, BGP, IPSec VPNs, Fail2Ban, HSRP, VLAN, DHCP, DNS, TCP/IP, TLS, ACL, NAT, SSH, RTP, RTSP
-- **Tools:** Cisco Packet Tracer, Git, Docker, GNS3, IPAM, PyCharm
+- **Tools:** Cisco Packet Tracer, Docker, GNS3, IPAM, PyCharm
 - **Diagnostic Tools:** ping, tracert, Network Mapper, tcpdump, Wireshark
 - **Operating Systems:** Windows, Linux, MacOS, VMware, Virtualbox
 
@@ -20,22 +20,23 @@ Passionate Network Engineer with expertise in designing and implementing robust 
   - Designed a multi-location network infrastructure with OSPF routing, VLAN segmentation, and redundancy features like HSRP. 
   - Implemented DHCP, enhanced network security with IPsec VPN, and optimized LAN performance using Rapid STP and EtherChannel.
 
-**Efficient Mathematical Query Handling via TCP Socket Protocol** 
-  - https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
-  - Built a TCP-based client-server communication system in Python to handle real-time data transfer and mathematical query computation. 
-  - Utilized multi-threading for scalability and implemented error handling for reliable connectivity.
-
 **Ad-Hoc Network Infrastructure Using Linux**
   - https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux     
   - Configured a DNS server with Bind9 for IPv4/IPv6 integration, reverse domain setups, and master-slave synchronization. 
   - Automated data backups with crontab and secure transfers to a remote server. 
   - Enhanced security using Fail2Ban, IPsec VPN, and simulated MITM attacks with ARP spoofing to identify vulnerabilities.
 
+**Efficient Mathematical Query Handling via TCP Socket Protocol** 
+  - https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
+  - Built a TCP-based client-server communication system in Python to handle real-time data transfer and mathematical query computation. 
+  - Utilized multi-threading for scalability and implemented error handling for reliable connectivity.
+
 **Docker-Based MySQL Server Deployment and Network Validation**
   - https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
   - Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. 
   - Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
 
+### :dart: Self-Driven Technical Projects
 **Real-Time Video Streaming Server Using RTP and RTSP**
   - https://github.com/Jeevanandh32/Real-Time-Video-Streaming-Server-Using-RTP-and-RTSP
   - Developed and deployed a real-time video streaming server in Kali Linux utilizing RTP and RTSP protocols to deliver smooth video playback with accurate synchronization. 
@@ -43,7 +44,6 @@ Passionate Network Engineer with expertise in designing and implementing robust 
   - Deployed the project using Docker, ensuring scalability and ease of deployment across environments.
   - Verified functionality using tools like VLC Media Player, Tcpdump and Wireshark, gaining hands-on experience in multimedia networking and low-latency data streaming.
 
-### :dart: Self-Driven Technical Projects
 **Software-Defined Networking (SDN) for Disaster Recovery**  
   - https://github.com/Jeevanandh32/Software-Define-Networking-SDN-for-automated-Disaster-Recovery
   - Implemented SDN-based failover using OpenDaylight, reducing network downtime to **under 10 seconds**.
