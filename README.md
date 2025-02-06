@@ -4,10 +4,10 @@
 Passionate Network Engineer with expertise in designing and implementing robust network infrastructures. Proficient in configuring and optimizing multi-location networks, enhancing security, and implementing advanced routing protocols like OSPF and BGP. Experienced in deploying network security solutions, including IPSec VPNs and Fail2Ban, and ensuring high availability through redundancy features like HSRP. Adept at automation with Python and Bash, network troubleshooting using tools like Wireshark and Cisco Packet Tracer, and integrating innovative solutions. Strong academic background in Telecommunication Networks with a GPA of 3.8/4, complemented by hands-on experience multi-site network design projects.
 
 ### 🛠️ Technologies & Tools
-- **Scripting & Automation:** Python, Bash, Crontab, Powershell, Ansible
+- **Scripting & Automation:** Python, Bash, C, Crontab, Powershell, Ansible
 - **Network and Security Protocols:** OSPF, SSH, SSL/TLS, Firewalls, WPA3, BGP, IPSec VPNs, Fail2Ban, HSRP, VLAN, DHCP, DNS, TCP/IP, TLS, ACL, NAT, SSH, RTP, RTSP
 - **Tools:** Cisco Packet Tracer, Docker, GNS3, IPAM, PyCharm
-- **Diagnostic Tools:** ping, tracert, Network Mapper, tcpdump, Wireshark
+- **Diagnostic Tools:** ping, tracert, nmap, tcpdump, Wireshark
 - **Operating Systems:** Windows, Linux, MacOS, VMware, Virtualbox
 
 ### 🌱 Currently Learning
