@@ -4,11 +4,12 @@
 Passionate Network Engineer with expertise in designing and implementing robust network infrastructures. Proficient in configuring and optimizing multi-location networks, enhancing security, and implementing advanced routing protocols like OSPF and BGP. Experienced in deploying network security solutions, including IPSec VPNs and Fail2Ban, and ensuring high availability through redundancy features like HSRP. Adept at automation with Python and Bash, network troubleshooting using tools like Wireshark and Cisco Packet Tracer, and integrating innovative solutions. Strong academic background in Telecommunication Networks with a GPA of 3.8/4, complemented by hands-on experience multi-site network design projects.
 
 ### 🛠️ Technologies & Tools
-- **Scripting & Automation:** Python, Bash, C, Crontab, Powershell, Ansible
-- **Network and Security Protocols:** OSPF, SSH, SSL/TLS, Firewalls, WPA3, BGP, IPSec VPNs, Fail2Ban, HSRP, VLAN, DHCP, DNS, TCP/IP, TLS, ACL, NAT, SSH, RTP, RTSP
-- **Tools:** Cisco Packet Tracer, Docker, GNS3, IPAM, PyCharm
-- **Diagnostic Tools:** ping, tracert, nmap, tcpdump, Wireshark
-- **Operating Systems:** Windows, Linux, MacOS, VMware, Virtualbox
+- **Scripting:** Python (Netmiko, Paramiko, Napalm), C, Perl, Bash, Ansible
+- **Network Protocols:** Ethernet, TCP/IP, UDP, OSI Model, DNS, DHCP, HTTPS, L2 Switching (Spanning Tree, RSTP, VLAN, ARP, MAC Addressing), L3 Routing (BGP, OSPF, EIGRP, RIP, NAT, HSRP), MPLS, SD-WAN
+- **Security Protocols:** Firewalls, AES-256, SSL/TLS, RSA, IPSec VPN, SSH, Fail2Ban, IDS/IPS, OAuth/OpenID, WPA3, LDAP, SHA-256
+- **Operating Systems & Virtualization:** Ubuntu Linux, Kali Linux, Windows, MacOS, VMware, VirtualBox
+- **Platforms:** Docker, Wireshark, Tcpdump, PyCharm, iPerf, Nmap, Jenkins, Git, AWS (VPC, EC2), Microsoft 365
+- **Soft Skills:** Teamwork, Troubleshooting, Communication, Disaster Recovery Analysis
 
 ### 🌱 Currently Learning
 - Communication and Network Security [TELE 6300]
@@ -49,6 +50,15 @@ Passionate Network Engineer with expertise in designing and implementing robust 
   - Implemented SDN-based failover using OpenDaylight, reducing network downtime to **under 10 seconds**.
   - Designed **automated rerouting policies** using OpenFlow rules and Python scripts.
   - Integrated **real-time monitoring and alerting mechanisms** to detect network failures.
+
+**Secure Communication Using RSA Encryption**
+Ubuntu VMs | Python | RSA Encryption | Socket Programming
+- https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption
+- Designed and implemented a secure communication system between two Ubuntu VMs using RSA encryption to ensure confidential data exchange.
+- Developed an automated RSA key generation and public key exchange mechanism using Python’s pycryptodome library and socket programming.
+- Implemented encrypted message transmission using PKCS1_OAEP for secure end-to-end communication between client and server.
+- Configured a socket-based client-server architecture for encrypted text-based chat, ensuring confidentiality and integrity.
+- Automated key removal after each session to enhance security and prevent unauthorized access
 
 ### 📝 Certifications
  ![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
