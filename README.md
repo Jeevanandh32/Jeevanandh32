@@ -44,7 +44,7 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 - Optimized RTP packetization and video encoding to achieve low-latency, high-quality playback.
 - Implemented GStreamer pipelines for seamless RTSP client-side video streaming.
 - Automated deployment and scaling with Docker, ensuring easy setup and cross-platform compatibility.
-Tech Stack: 🐳 Docker | 🎥 GStreamer | 🐍 Python | 📡 RTSP | 🔗 RTP | 🐧 Linux (Kali)
+- Tech Stack: 🐳 Docker | 🎥 GStreamer | 🐍 Python | 📡 RTSP | 🔗 RTP | 🐧 Linux (Kali)
 
 **Software-Defined Networking (SDN) for Disaster Recovery**  
   - https://github.com/Jeevanandh32/Software-Define-Networking-SDN-for-automated-Disaster-Recovery
