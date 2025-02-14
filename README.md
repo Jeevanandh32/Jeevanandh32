@@ -16,50 +16,56 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 - Internet Protocols and Architecture [TELE 5360]
 
 ### 🚀 Academic Projects
-**Enhanced Multi-Site Network Design Incorporating OSPF and Redundancy Features**
-  - https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer       
-  - Designed a multi-location network infrastructure with OSPF routing, VLAN segmentation, and redundancy features like HSRP. 
-  - Implemented DHCP, enhanced network security with IPsec VPN, and optimized LAN performance using Rapid STP and EtherChannel.
+**Enhanced Multi-Site Network Design with OSPF and VLAN**
+- 🔗 https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer
+- Designed a multi-location network architecture with OSPF routing, VLAN segmentation, and redundancy features like HSRP.
+- Implemented DHCP services, secured connectivity with IPsec VPN, and optimized LAN performance using Rapid STP and EtherChannel.
+- Tech Stack: 🖧 Cisco Packet Tracer | 🌐 OSPF | 🏢 VLANs | 🔒 IPsec VPN | 🔄 HSRP | ⚡ Rapid STP
 
 **Ad-Hoc Network Infrastructure Using Linux**
-  - https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux     
-  - Configured a DNS server with Bind9 for IPv4/IPv6 integration, reverse domain setups, and master-slave synchronization. 
-  - Automated data backups with crontab and secure transfers to a remote server. 
-  - Enhanced security using Fail2Ban, IPsec VPN, and simulated MITM attacks with ARP spoofing to identify vulnerabilities.
+- 🔗 https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux
+- Configured a DNS server with Bind9, supporting IPv4/IPv6 integration, reverse domain resolution, and master-slave synchronization.
+- Automated secure data backups with crontab and transferred files using encrypted SSH/SCP.
+- Enhanced security by implementing Fail2Ban, setting up IPsec VPN, and conducting MITM attack simulations via ARP spoofing to identify vulnerabilities.
+- Tech Stack: 🐧 Linux | 📡 Bind9 DNS | 🔒 IPsec VPN | 🔥 Fail2Ban | 📂 Crontab | 🛡️ ARP Spoofing
 
-**Efficient Mathematical Query Handling via TCP Socket Protocol** 
-  - https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
-  - Built a TCP-based client-server communication system in Python to handle real-time data transfer and mathematical query computation. 
-  - Utilized multi-threading for scalability and implemented error handling for reliable connectivity.
+**Efficient Mathematical Query Handling via TCP Sockets**
+- 🔗 https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
+- Developed a TCP-based client-server system in Python, enabling real-time data transfer and mathematical query processing.
+- Integrated multi-threading for handling multiple client connections concurrently.
+- Implemented robust error handling to ensure reliable network communication.
+- Tech Stack: 🐍 Python | 📡 TCP Sockets | 🧵 Multi-threading | ⚙️ Error Handling
 
 **Docker-Based MySQL Server Deployment and Network Validation**
-  - https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
-  - Deployed and configured Docker containers on a Linux VM to simulate a MySQL server environment. 
-  - Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
+- 🔗 https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
+- Deployed and configured Docker containers to create a MySQL server environment on a Linux VM.
+- Verified database functionality through real-time SQL queries and tested network connectivity using mysql-client.
+- Diagnosed performance and analyzed network traffic with tools like Wireshark.
+- Tech Stack: 🐳 Docker | 🐧 Linux | 🗄️ MySQL | 🏗️ Container Networking | 📡 Wireshark
 
 ### :dart: Self-Driven Technical Projects
 **RTSP Streaming with GStreamer in Kali Linux**
-- https://github.com/Jeevanandh32/RTSP-Streaming-with-GStreamer-in-Kali-Linux-using-Docker
+- 🔗 https://github.com/Jeevanandh32/RTSP-Streaming-with-GStreamer-in-Kali-Linux-using-Docker
 - Built a containerized RTSP server using Docker, GStreamer, and Python for real-time video streaming.
 - Optimized RTP packetization and video encoding to achieve low-latency, high-quality playback.
 - Implemented GStreamer pipelines for seamless RTSP client-side video streaming.
 - Automated deployment and scaling with Docker, ensuring easy setup and cross-platform compatibility.
 - Tech Stack: 🐳 Docker | 🎥 GStreamer | 🐍 Python | 📡 RTSP | 🔗 RTP | 🐧 Linux (Kali)
 
-**Software-Defined Networking (SDN) for Disaster Recovery**  
-  - https://github.com/Jeevanandh32/Software-Define-Networking-SDN-for-automated-Disaster-Recovery
-  - Implemented SDN-based failover using OpenDaylight, reducing network downtime to **under 10 seconds**.
-  - Designed **automated rerouting policies** using OpenFlow rules and Python scripts.
-  - Integrated **real-time monitoring and alerting mechanisms** to detect network failures.
+**Software-Defined Networking (SDN) for Disaster Recovery**
+- 🔗 https://github.com/Jeevanandh32/Software-Define-Networking-SDN-for-automated-Disaster-Recovery
+- Implemented SDN-based failover using OpenDaylight, reducing network downtime to under 10 seconds.
+- Designed automated rerouting policies using OpenFlow rules and Python scripts for seamless disaster recovery.
+- Integrated real-time monitoring and alerting mechanisms to detect and respond to network failures.
+- Tech Stack: ☁️ SDN | 🔗 OpenDaylight | 🖧 OpenFlow | 🐍 Python | 📡 Network Automation
 
 **Secure Communication Using RSA Encryption**
-Ubuntu VMs | Python | RSA Encryption | Socket Programming
-- https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption
-- Designed and implemented a secure communication system between two Ubuntu VMs using RSA encryption to ensure confidential data exchange.
-- Developed an automated RSA key generation and public key exchange mechanism using Python’s pycryptodome library and socket programming.
-- Implemented encrypted message transmission using PKCS1_OAEP for secure end-to-end communication between client and server.
+- 🔗 https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption
+- Designed a secure communication system for Ubuntu VMs using RSA encryption, ensuring confidential data exchange.
+- Developed an automated RSA key generation and public key exchange mechanism using Python’s pycryptodome library.
+- Implemented encrypted message transmission using PKCS1_OAEP, enabling secure end-to-end communication.
 - Configured a socket-based client-server architecture for encrypted text-based chat, ensuring confidentiality and integrity.
-- Automated key removal after each session to enhance security and prevent unauthorized access
+- Tech Stack: 🐧 Ubuntu | 🔐 RSA Encryption | 🐍 Python | 🖧 Socket Programming | 🔑 PKCS1_OAEP
 
 ### 📝 Certifications
  ![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
