@@ -38,12 +38,13 @@ Passionate Network Engineer with expertise in designing and implementing robust 
   - Validated functionality through real-time database queries, inspected bridge networks for connectivity with mysql-client, and diagnosed performance using tools like Wireshark.
 
 ### :dart: Self-Driven Technical Projects
-**Real-Time Video Streaming Server Using RTP and RTSP**
-  - https://github.com/Jeevanandh32/Real-Time-Video-Streaming-Server-Using-RTP-and-RTSP
-  - Developed and deployed a real-time video streaming server in Kali Linux utilizing RTP and RTSP protocols to deliver smooth video playback with accurate synchronization. 
-  - Configured the server to handle client commands (PLAY, PAUSE, TEARDOWN) and encapsulated video frames into RTP packets for seamless transmission.
-  - Deployed the project using Docker, ensuring scalability and ease of deployment across environments.
-  - Verified functionality using tools like VLC Media Player, Tcpdump and Wireshark, gaining hands-on experience in multimedia networking and low-latency data streaming.
+**RTSP Streaming with GStreamer in Kali Linux**
+- https://github.com/Jeevanandh32/RTSP-Streaming-with-GStreamer-in-Kali-Linux-using-Docker
+- Built a containerized RTSP server using Docker, GStreamer, and Python for real-time video streaming.
+- Optimized RTP packetization and video encoding to achieve low-latency, high-quality playback.
+- Implemented GStreamer pipelines for seamless RTSP client-side video streaming.
+- Automated deployment and scaling with Docker, ensuring easy setup and cross-platform compatibility.
+Tech Stack: 🐳 Docker | 🎥 GStreamer | 🐍 Python | 📡 RTSP | 🔗 RTP | 🐧 Linux (Kali)
 
 **Software-Defined Networking (SDN) for Disaster Recovery**  
   - https://github.com/Jeevanandh32/Software-Define-Networking-SDN-for-automated-Disaster-Recovery
