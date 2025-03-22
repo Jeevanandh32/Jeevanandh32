@@ -43,6 +43,14 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 - Diagnosed performance and analyzed network traffic with tools like Wireshark.
 - Tech Stack: 🐳 Docker | 🐧 Linux | 🗄️ MySQL | 🏗️ Container Networking | 📡 Wireshark
 
+**Secure Communication Using RSA Encryption**
+- 🔗 https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption
+- Designed a secure communication system for Ubuntu VMs using RSA encryption, ensuring confidential data exchange.
+- Developed an automated RSA key generation and public key exchange mechanism using Python’s pycryptodome library.
+- Implemented encrypted message transmission using PKCS1_OAEP, enabling secure end-to-end communication.
+- Configured a socket-based client-server architecture for encrypted text-based chat, ensuring confidentiality and integrity.
+- Tech Stack: 🐧 Ubuntu | 🔐 RSA Encryption | 🐍 Python | 🖧 Socket Programming | 🔑 PKCS1_OAEP
+
 ### :dart: Self-Driven Technical Projects
 **RTSP Streaming with GStreamer in Kali Linux**
 - 🔗 https://github.com/Jeevanandh32/RTSP-Streaming-with-GStreamer-in-Kali-Linux-using-Docker
@@ -59,13 +67,7 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 - Integrated real-time monitoring and alerting mechanisms to detect and respond to network failures.
 - Tech Stack: ☁️ SDN | 🔗 OpenDaylight | 🖧 OpenFlow | 🐍 Python | 📡 Network Automation
 
-**Secure Communication Using RSA Encryption**
-- 🔗 https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption
-- Designed a secure communication system for Ubuntu VMs using RSA encryption, ensuring confidential data exchange.
-- Developed an automated RSA key generation and public key exchange mechanism using Python’s pycryptodome library.
-- Implemented encrypted message transmission using PKCS1_OAEP, enabling secure end-to-end communication.
-- Configured a socket-based client-server architecture for encrypted text-based chat, ensuring confidentiality and integrity.
-- Tech Stack: 🐧 Ubuntu | 🔐 RSA Encryption | 🐍 Python | 🖧 Socket Programming | 🔑 PKCS1_OAEP
+
 
 ### 📝 Certifications
  ![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
