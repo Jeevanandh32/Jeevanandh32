@@ -76,7 +76,7 @@ Jan 2024 - May 2024
 - Optimized processes, achieving a 15% reduction in processing time, ensuring on-time project delivery
 - Streamlined technical documentation with structured workflows and reports for clear stakeholder communication.
 
-**Intern, Airport Authority of India (AAI), INDIA** 
+**Intern, Airport Authority of India (AAI), INDIA**
 Feb 2023 – Mar 2023  
 - Configured and maintained networking protocols and infrastructure used in airport communication systems
 - Troubleshooted network issues, ensuring high availability of data flow between air traffic control, and administrative networks
