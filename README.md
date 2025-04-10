@@ -71,16 +71,16 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 
 **R&D Intern, Boat - Imagine Marketing Private Limited, INDIA**                                                                                                                
 Jan 2024 - May 2024 
-•	Engineered a TWS Headphone using the MSPM0L1306 microcontroller, integrating an OLED display and BLE for connectivity
-•	Implemented I2C protocol for data communication, enhancing device performance while working with cross-functional teams
-•	Optimized processes, achieving a 15% reduction in processing time, ensuring on-time project delivery
-•	Streamlined technical documentation with structured workflows and reports for clear stakeholder communication.
+- Engineered a TWS Headphone using the MSPM0L1306 microcontroller, integrating an OLED display and BLE for connectivity
+- Implemented I2C protocol for data communication, enhancing device performance while working with cross-functional teams
+- Optimized processes, achieving a 15% reduction in processing time, ensuring on-time project delivery
+- Streamlined technical documentation with structured workflows and reports for clear stakeholder communication.
 
 **Intern, Airport Authority of India (AAI), INDIA** 
 Feb 2023 – Mar 2023  
-•	Configured and maintained networking protocols and infrastructure used in airport communication systems
-•	Troubleshooted network issues, ensuring high availability of data flow between air traffic control, and administrative networks
-•	Collaborated with IT team to support reliable system connectivity, providing smooth operation of mission-critical airport service
+- Configured and maintained networking protocols and infrastructure used in airport communication systems
+- Troubleshooted network issues, ensuring high availability of data flow between air traffic control, and administrative networks
+- Collaborated with IT team to support reliable system connectivity, providing smooth operation of mission-critical airport service
 
 ### 📝 Certifications
  ![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
