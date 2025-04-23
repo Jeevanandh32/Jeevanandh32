@@ -83,7 +83,11 @@ Feb 2023 – Mar 2023
 - Collaborated with IT team to support reliable system connectivity, providing smooth operation of mission-critical airport service
 
 ### 📝 Certifications
- ![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
+(https://www.udemy.com/certificate/UC-d5fe35c8-16cf-46c5-ac08-9b7b8d84b0db/) 
+
+Master Network Automation with Python for Network Engineers
+
+![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
  
  Introduction to Digital Transformation - Siemens Software (https://www.credly.com/badges/e2a74f46-236a-418f-8e37-34902de8c28f/linked_in_profile) 
 
