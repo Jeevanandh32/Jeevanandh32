@@ -4,16 +4,18 @@
 Passionate Network Engineer with expertise in designing and implementing robust network infrastructures. Proficient in configuring and optimizing multi-location networks, enhancing security, and implementing advanced routing protocols like OSPF and BGP. Experienced in deploying network security solutions, including IPSec VPNs and Fail2Ban, and ensuring high availability through redundancy features like HSRP. Adept at automation with Python and Bash, network troubleshooting using tools like Wireshark and Cisco Packet Tracer, and integrating innovative solutions. 
 
 ### 🛠️ Technologies & Tools
-- **Scripting:** Python (Netmiko, Paramiko, Napalm), C, Perl, Bash, Ansible
+- **Scripting:** Python (Netmiko, Paramiko, Napalm), Perl, Bash, Ansible
 - **Network Protocols:** Ethernet, TCP/IP, UDP, OSI Model, DNS, DHCP, HTTPS, L2 Switching (Spanning Tree, RSTP, VLAN, ARP, MAC Addressing), L3 Routing (BGP, OSPF, EIGRP, RIP, NAT, HSRP), MPLS, SD-WAN
 - **Security Protocols:** Firewalls, AES-256, SSL/TLS, RSA, IPSec VPN, SSH, Fail2Ban, IDS/IPS, OAuth/OpenID, WPA3, LDAP, SHA-256
 - **Operating Systems & Virtualization:** Ubuntu Linux, Kali Linux, Windows, MacOS, VMware, VirtualBox
 - **Platforms:** Docker, Wireshark, Tcpdump, PyCharm, iPerf, Nmap, Jenkins, Git, AWS (VPC, EC2), Microsoft 365
 - **Soft Skills:** Teamwork, Troubleshooting, Communication, Disaster Recovery Analysis
 
-### 🌱 Currently Learning
+### 🌱 Coursework
 - Communication and Network Security [TELE 6300]
 - Internet Protocols and Architecture [TELE 5360]
+- Data Networking [TELE 5330]
+- Linux for Network Engineers [TELE 5600]
 
 ### 🚀 Academic Projects
 **Enhanced Multi-Site Network Design with OSPF and VLAN**
@@ -83,11 +85,10 @@ Feb 2023 – Mar 2023
 - Collaborated with IT team to support reliable system connectivity, providing smooth operation of mission-critical airport service
 
 ### 📝 Certifications
-Master Network Automation with Python for Network Engineers - Udemy
+- Master Network Automation with Python for Network Engineers - Udemy
 ![image](https://github.com/user-attachments/assets/1c6f5410-d069-4545-b2d4-5b32c5581b60)
 
-Introduction to Digital Transformation - Siemens Software
-![introduction-to-digital-transformation-course (2)](https://github.com/user-attachments/assets/209f7915-1224-48d5-aa69-101560de1e90)
+- Introduction to Digital Transformation - Siemens Software
 
 
 ### 📫 How to Reach Me
