@@ -38,13 +38,6 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 - Implemented robust error handling to ensure reliable network communication.
 - Tech Stack: 🐍 Python | 📡 TCP Sockets | 🧵 Multi-threading | ⚙️ Error Handling
 
-**Docker-Based MySQL Server Deployment and Network Validation**
-- 🔗 https://github.com/Jeevanandh32/Docker-Based-MySQL-Server-Deployment-and-Network-Validation
-- Deployed and configured Docker containers to create a MySQL server environment on a Linux VM.
-- Verified database functionality through real-time SQL queries and tested network connectivity using mysql-client.
-- Diagnosed performance and analyzed network traffic with tools like Wireshark.
-- Tech Stack: 🐳 Docker | 🐧 Linux | 🗄️ MySQL | 🏗️ Container Networking | 📡 Wireshark
-
 **Secure Communication Using RSA Encryption**
 - 🔗 https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption
 - Designed a secure communication system for Ubuntu VMs using RSA encryption, ensuring confidential data exchange.
