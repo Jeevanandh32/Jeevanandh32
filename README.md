@@ -4,7 +4,7 @@
 Passionate Network Engineer with expertise in designing and implementing robust network infrastructures. Proficient in configuring and optimizing multi-location networks, enhancing security, and implementing advanced routing protocols like OSPF and BGP. Experienced in deploying network security solutions, including IPSec VPNs and Fail2Ban, and ensuring high availability through redundancy features like HSRP. Adept at automation with Python and Bash, network troubleshooting using tools like Wireshark and Cisco Packet Tracer, and integrating innovative solutions. 
 
 ### 🛠️ Technologies & Tools
-- **Scripting:** Python (Netmiko, Paramiko, Napalm), Perl, Bash, Ansible
+- **Scripting:** Python (Netmiko, Paramiko, Napalm), Bash, Ansible
 - **Network Protocols:** Ethernet, TCP/IP, UDP, OSI Model, DNS, DHCP, HTTPS, L2 Switching (Spanning Tree, RSTP, VLAN, ARP, MAC Addressing), L3 Routing (BGP, OSPF, EIGRP, RIP, NAT, HSRP), MPLS, SD-WAN
 - **Security Protocols:** Firewalls, AES-256, SSL/TLS, RSA, IPSec VPN, SSH, Fail2Ban, IDS/IPS, OAuth/OpenID, WPA3, LDAP, SHA-256
 - **Operating Systems & Virtualization:** Ubuntu Linux, Kali Linux, Windows, MacOS, VMware, VirtualBox
@@ -30,13 +30,6 @@ Passionate Network Engineer with expertise in designing and implementing robust 
 - Automated secure data backups with crontab and transferred files using encrypted SSH/SCP.
 - Enhanced security by implementing Fail2Ban, setting up IPsec VPN, and conducting MITM attack simulations via ARP spoofing to identify vulnerabilities.
 - Tech Stack: 🐧 Linux | 📡 Bind9 DNS | 🔒 IPsec VPN | 🔥 Fail2Ban | 📂 Crontab | 🛡️ ARP Spoofing
-
-**Efficient Mathematical Query Handling via TCP Sockets**
-- 🔗 https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON
-- Developed a TCP-based client-server system in Python, enabling real-time data transfer and mathematical query processing.
-- Integrated multi-threading for handling multiple client connections concurrently.
-- Implemented robust error handling to ensure reliable network communication.
-- Tech Stack: 🐍 Python | 📡 TCP Sockets | 🧵 Multi-threading | ⚙️ Error Handling
 
 **Secure Communication Using RSA Encryption**
 - 🔗 https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption
