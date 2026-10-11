@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Jeevanandh Ravi
 
-**Network Engineer · Network Automation · Cisco & Juniper**
+**Network Engineer · Network Automation · AI-Assisted Engineering · Cisco & Juniper**
 MS in Telecommunication Networks, Northeastern University (Dec 2026) · JNCIA-Junos · Boston, MA (open to relocation)
 
 I troubleshoot and build enterprise networks, and I automate the changes so they go out safely: validated, staged, health-checked, and rolled back on their own when something breaks.
@@ -8,6 +8,7 @@ I troubleshoot and build enterprise networks, and I automate the changes so they
 - 🛠️ Network Engineer co-op at **Global Partners**: resolved 300+ WAN, LAN, Wi-Fi and POS incidents across 890+ retail sites, with 88% resolved the same day
 - 🎓 Graduate Teaching Assistant, **Linux for Network Engineers**, Northeastern University
 - 🤖 Currently building: multivendor EVPN-VXLAN automation on real Cisco NX-OS and Juniper Junos images
+- 🧠 AI-assisted engineering: I use AI coding agents to design, build and debug network automation faster, then verify every result on real devices and with tests (FabricPilot, ProbePulse)
 
 ## 🚀 Featured project
 
@@ -50,6 +51,15 @@ Primary and secondary BIND9 DNS servers and ISC DHCP on Ubuntu VMs in VMware. VM
 
 </details>
 
+## 🧠 AI skills (used in my projects)
+
+| Skill | Where I used it |
+|---|---|
+| **Building with AI coding agents** | Built FabricPilot (Python, Jinja2, Ansible, 54 tests) and ProbePulse by directing an AI agent through design, code, tests and docs |
+| **Verifying AI output** | Checked every AI-generated config and claim against real Cisco/Juniper switches, logs and tests; caught and corrected wrong results before publishing |
+| **AI-assisted troubleshooting** | Used AI to analyze device output and logs, which helped find 20+ real-device issues, including a Cisco/Juniper EVPN interop bug |
+| **Human-in-the-loop automation** | Kept people in control: operator-approved remediation in ProbePulse; changes, commits and deployments approved by me first |
+
 ## 🛠️ Skills
 
 | Area | Tools and technologies |
@@ -59,6 +69,7 @@ Primary and secondary BIND9 DNS servers and ISC DHCP on Ubuntu VMs in VMware. VM
 | **Automation** | Python, Bash, Ansible, Netmiko, NetBox, Jinja2, YAML, REST APIs, JSON, Git, Bitbucket |
 | **Systems** | Ubuntu Linux, VMware, Docker, Docker Compose, containerlab |
 | **Monitoring & troubleshooting** | SolarWinds Orion, SNMP, Prometheus, Grafana, ServiceNow, Wireshark, tcpdump |
+| **AI-assisted engineering** | AI coding agents, AI-assisted debugging and testing, human-in-the-loop automation |
 | **Cloud** | AWS (S3, IAM, VPC, boto3, CloudShell), Google Cloud (Compute Engine, Cloud Storage) |
 
 ## 💼 Experience
