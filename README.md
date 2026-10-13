@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Jeevanandh Ravi
 
-**Network Engineer · Network Automation · AI-Assisted Engineering · Cisco & Juniper**
+**Network Engineer · Network Automation · AI-Network Engineering · Cisco & Juniper**
 MS in Telecommunication Networks, Northeastern University (Dec 2026) · JNCIA-Junos · Boston, MA (open to relocation)
 🌐 **Portfolio:** [jeevanandh32.github.io](https://jeevanandh32.github.io)
 
