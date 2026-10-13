@@ -12,9 +12,9 @@ I troubleshoot and build enterprise networks, and I automate the changes so they
 
 ## 🚀 Featured project
 
-### [FabricPilot: Multivendor EVPN-VXLAN Fabric Automation](https://github.com/Jeevanandh32/fabricpilot)
+### [FabricPilot: Multivendor EVPN-VXLAN Fabric Automation](https://github.com/Jeevanandh32/FabricPilot)
 
-[![FabricPilot demo](https://github.com/Jeevanandh32/fabricpilot/raw/main/docs/demo-poster.png)](https://github.com/Jeevanandh32/fabricpilot/blob/main/docs/fabricpilot-short.mp4)
+[![FabricPilot demo](https://github.com/Jeevanandh32/FabricPilot/raw/main/docs/demo-poster.png)](https://github.com/Jeevanandh32/FabricPilot/blob/main/docs/fabricpilot-short.mp4)
 
 One source of truth (NetBox/YAML) drives Cisco NX-OS and Juniper Junos configs. Every change goes through a pipeline: **validate → render → plan → canary/batch rollout → health gate → verify → email report**.
 
@@ -24,29 +24,49 @@ One source of truth (NetBox/YAML) drives Cisco NX-OS and Juniper Junos configs. 
 - Ansible check mode reported zero configuration drift; the NetBox round trip renders identical configs
 - `Python` `Jinja2` `Netmiko` `Ansible` `NetBox` `containerlab` `Google Cloud` `BGP EVPN` `VXLAN`
 
-▶️ [Watch the 2-minute demo](https://github.com/Jeevanandh32/fabricpilot/blob/main/docs/fabricpilot-short.mp4)
+▶️ [Watch the 2-minute demo](https://github.com/Jeevanandh32/FabricPilot/blob/main/docs/fabricpilot-short.mp4)
 
 ## 📂 More projects
 
-**[ProbePulse: Container Network Observability & Recovery](https://github.com/Jeevanandh32/ProbePulse)**
-Docker Compose lab testing HTTP, connection and DNS failures, with tcpdump packet analysis. Prometheus Blackbox probes and Grafana email alerts gave a 36.95 s median detection time across five controlled outages. Operator-approved Bash remediation recovered 5/5 outages, with a 351 ms median recovery after approval.
-`Docker Compose` `Prometheus` `Grafana` `tcpdump` `Bash` `Python`
+### [ProbePulse: Container Network Observability & Recovery](https://github.com/Jeevanandh32/ProbePulse)
 
-**[AWS S3 Storage Diagnostic Automation](https://github.com/Jeevanandh32/AWS-S3-Connectivity-Tester)**
+[![ProbePulse](assets/probepulse.png)](https://github.com/Jeevanandh32/ProbePulse)
+
+Docker Compose lab testing HTTP, connection and DNS failures, with tcpdump packet analysis. Prometheus Blackbox probes and Grafana email alerts gave a 36.95 s median detection time across five controlled outages. Operator-approved Bash remediation recovered 5/5 outages, with a 351 ms median recovery after approval.
+`Docker Compose` `Prometheus` `Blackbox Exporter` `Grafana` `tcpdump` `Bash` `Python`
+
+### [High-Availability Multi-Site Network Design](https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer)
+
+[![High-Availability Multi-Site Network Design](assets/ha-multi-site.png)](https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer)
+
+Five-site enterprise WAN on Cisco IOS with 8 routers and 11 switches. Each site is its own OSPF area, joined through the area 0 backbone, with redundancy so losing a link, router or switch doesn't stop traffic.
+`Cisco IOS` `Multi-area OSPF` `EIGRP` `GRE over IPsec` `HSRP` `Rapid PVST+` `LACP` `ACLs`
+
+### [Multi-AS BGP & MPLS L3VPN Lab](https://github.com/Jeevanandh32/Advanced-Network-Configuration-Troubleshooting)
+
+[![Multi-AS BGP & MPLS L3VPN Lab](assets/mpls-l3vpn.png)](https://github.com/Jeevanandh32/Advanced-Network-Configuration-Troubleshooting)
+
+A provider core (AS 100) carrying customer VRFs between customer sites in AS 65001 and AS 65002. Customer routes are kept apart in VRFs and label-switched across the core, then broken and fixed on purpose to practice troubleshooting.
+`Cisco IOS` `BGP` `MPLS` `LDP` `OSPF` `VRF` `route-maps` `L3VPN`
+
+### [Linux Network Infrastructure & Monitoring](https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux)
+
+[![Linux Network Infrastructure & Monitoring](assets/linux-infrastructure.png)](https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux)
+
+Primary and secondary BIND9 DNS servers and ISC DHCP on Ubuntu VMs in VMware. VMs connected across physical hosts with NAT port forwarding and IPsec, verified with Wireshark, ping and traceroute. Backups automated with cron, and Fail2Ban configured for access protection.
+`Ubuntu` `VMware` `BIND9` `ISC DHCP` `IPsec` `Wireshark` `cron` `Fail2Ban`
+
+### [AWS S3 Storage Diagnostic Automation](https://github.com/Jeevanandh32/AWS-S3-Connectivity-Tester)
+
+[![AWS S3 Storage Diagnostic Automation](assets/aws-s3-diagnostic.png)](https://github.com/Jeevanandh32/AWS-S3-Connectivity-Tester)
+
 Python/boto3 tool that validates AWS credentials, network connectivity and S3 across nine operations, including multipart uploads, IAM permissions and metadata. It tells access, resource and server failures apart (HTTP 403/404/500) and writes JSON reports, cutting diagnostic time from 15 minutes to under 10 seconds.
 `Python` `boto3` `AWS S3` `IAM` `JSON`
-
-**[Linux Network Infrastructure & Monitoring](https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux)**
-Primary and secondary BIND9 DNS servers and ISC DHCP on Ubuntu VMs in VMware. VMs connected across physical hosts with NAT port forwarding and IPsec, verified with Wireshark, ping and traceroute. Backups automated with cron, and Fail2Ban configured for access protection.
-`Ubuntu` `BIND9` `ISC DHCP` `IPsec` `Wireshark` `cron` `Fail2Ban`
 
 <details>
 <summary>Earlier projects</summary>
 
-- [Multi-Site Network Design with OSPF and VLANs](https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer): OSPF, VLANs, HSRP, IPsec VPN, Rapid STP, EtherChannel (Cisco Packet Tracer)
 - [Secure Communication Using RSA Encryption](https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption): Python RSA key exchange and encrypted client-server chat
-- [Network Automation for a Multi-Vendor Environment](https://github.com/Jeevanandh32/Network-Automation-for-Multi-Vendor-Environment)
-- [Advanced Network Configuration & Troubleshooting](https://github.com/Jeevanandh32/Advanced-Network-Configuration-Troubleshooting)
 - [Socket Programming in Python](https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON)
 
 </details>
