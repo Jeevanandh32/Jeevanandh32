@@ -2,6 +2,7 @@
 
 **Network Engineer · Network Automation · AI-Assisted Engineering · Cisco & Juniper**
 MS in Telecommunication Networks, Northeastern University (Dec 2026) · JNCIA-Junos · Boston, MA (open to relocation)
+🌐 **Portfolio:** [jeevanandh32.github.io](https://jeevanandh32.github.io)
 
 I troubleshoot and build enterprise networks, and I automate the changes so they go out safely: validated, staged, health-checked, and rolled back on their own when something breaks.
 
@@ -113,5 +114,6 @@ Prototyped C firmware for a TWS charging case (TI MSPM0L1306 MCU, SSD1306 OLED o
 
 ## 📫 Contact
 
+- **Portfolio:** [jeevanandh32.github.io](https://jeevanandh32.github.io)
 - **Email:** jeevanandhravi@gmail.com
 - **LinkedIn:** [linkedin.com/in/jeevanandhravi](https://www.linkedin.com/in/jeevanandhravi/)
