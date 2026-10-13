@@ -109,7 +109,14 @@ Prototyped C firmware for a TWS charging case (TI MSPM0L1306 MCU, SSD1306 OLED o
 
 ## 📜 Certifications
 
+<p>
+  <img src="assets/jncia-junos-badge.png" alt="HPE JNCIA-Junos Certified Associate" width="110">
+  &nbsp;&nbsp;
+  <img src="assets/amd-rocm-badge.png" alt="AMD ROCm Certified Associate" width="110">
+</p>
+
 - **Juniper Networks Certified Associate, Junos (JNCIA-Junos)**, Oct 2026
+- **AMD ROCm Certified Associate**, Oct 2026 – Oct 2028
 - Master Network Automation with Python for Network Engineers (Udemy)
 
 ## 📫 Contact
