@@ -11,7 +11,7 @@ I troubleshoot and build enterprise networks, and I automate the changes so they
 - 🤖 Currently building: multivendor EVPN-VXLAN automation on real Cisco NX-OS and Juniper Junos images
 - 🧠 AI-assisted engineering: I use AI coding agents to design, build and debug network automation faster, then verify every result on real devices and with tests (FabricPilot, ProbePulse)
 
-## 🚀 Featured project
+## 🚀 Featured projects
 
 ### [FabricPilot: Multivendor EVPN-VXLAN Fabric Automation](https://github.com/Jeevanandh32/FabricPilot)
 
@@ -26,6 +26,20 @@ One source of truth (NetBox/YAML) drives Cisco NX-OS and Juniper Junos configs. 
 - `Python` `Jinja2` `Netmiko` `Ansible` `NetBox` `containerlab` `Google Cloud` `BGP EVPN` `VXLAN`
 
 ▶️ [Watch the 2-minute demo](https://github.com/Jeevanandh32/FabricPilot/blob/main/docs/fabricpilot-short.mp4)
+
+### [Sophos Firewall Site-to-Site VPN Lab on AWS](https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab)
+
+[![Sophos site-to-site VPN demo](assets/sophos-s2s-vpn.png)](https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab/blob/main/docs/sophos-s2s-vpn-demo.mp4)
+
+Two Sophos Firewalls (SFOS v22) in separate AWS VPCs, each protecting an Ubuntu host, built with Terraform and joined by an IKEv2 IPsec tunnel. Each layer was configured and checked in turn: **build → firewall rules → NAT → web filter → IPsec → tests → backup/restore**.
+
+- IKEv2 IPsec through AWS 1:1 NAT: NAT-T on UDP 4500, Elastic IP identities, AES-256 with Curve25519
+- Ordered deny/allow rules with logging, masquerade NAT and category web filtering; 14 of 14 validation tests passed from both sites, confirmed with tcpdump and the IPsec SA
+- Found and fixed real issues on the live firewalls (IPsec blocked from the WAN zone, an API-created tunnel left inactive, backups needing a secure storage master key)
+- Took an encrypted config backup, made a change, restored it, and confirmed the change was reverted after the reboot
+- `Sophos Firewall` `IPsec/IKEv2` `NAT` `Web filtering` `Terraform` `CloudFormation` `AWS VPC/EC2` `tcpdump`
+
+▶️ [Watch the 1-minute walkthrough](https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab/blob/main/docs/sophos-s2s-vpn-demo.mp4)
 
 ## 📂 More projects
 
@@ -85,13 +99,13 @@ Python/boto3 tool that validates AWS credentials, network connectivity and S3 ac
 
 | Area | Tools and technologies |
 |---|---|
-| **Networking** | TCP/IP, IPv4/IPv6 subnetting, VLANs, 802.1Q, STP/RSTP, OSPF, BGP, DHCP, DNS, NAT/PAT, MPLS, EVPN-VXLAN |
-| **Network platforms** | Cisco IOS/IOS XE, Cisco NX-OS, Cisco Meraki Dashboard, Junos OS |
-| **Automation** | Python, Bash, Ansible, Netmiko, NetBox, Jinja2, YAML, REST APIs, JSON, Git, Bitbucket |
+| **Networking** | TCP/IP, IPv4/IPv6 subnetting, VLANs, 802.1Q, STP/RSTP, OSPF, BGP, DHCP, DNS, NAT/PAT, MPLS, EVPN-VXLAN, IPsec/IKEv2 site-to-site VPN |
+| **Network platforms** | Cisco IOS/IOS XE, Cisco NX-OS, Cisco Meraki Dashboard, Junos OS, Sophos Firewall (SFOS) |
+| **Automation** | Python, Bash, Ansible, Terraform, Netmiko, NetBox, Jinja2, YAML, REST APIs, JSON, Git, Bitbucket |
 | **Systems** | Ubuntu Linux, VMware, Docker, Docker Compose, containerlab |
 | **Monitoring & troubleshooting** | SolarWinds Orion, SNMP, Prometheus, Grafana, ServiceNow, Wireshark, tcpdump |
 | **AI-assisted engineering** | AI coding agents, AI-assisted debugging and testing, human-in-the-loop automation |
-| **Cloud** | AWS (S3, IAM, VPC, boto3, CloudShell), Google Cloud (Compute Engine, Cloud Storage) |
+| **Cloud** | AWS (S3, IAM, VPC, EC2, CloudFormation, boto3, CloudShell), Google Cloud (Compute Engine, Cloud Storage) |
 
 ## 💼 Experience
 
