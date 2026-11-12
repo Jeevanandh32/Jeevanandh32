@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Jeevanandh Ravi
 
 **Network Engineer · Network Automation · Cloud Networking · Cisco & Juniper**
-MS in Telecommunication Networks, Northeastern University (Dec 2026) · JNCIA-Junos · Boston, MA (open to relocation)
+MS in Telecommunication Networks, Northeastern University (Dec 2026) · JNCIA-Junos · Terraform Associate · Boston, MA (open to relocation)
 🌐 **Portfolio:** [jeevanandh32.github.io](https://jeevanandh32.github.io)
 
 I work on enterprise network troubleshooting and deployment. My lab projects explore validated configuration changes, staged rollouts, health checks, rollback, and cloud-network recovery under injected failures.
@@ -134,13 +134,16 @@ Prototyped C firmware for a TWS charging case (TI MSPM0L1306 MCU, SSD1306 OLED o
 ## 📜 Certifications
 
 <p>
-  <img src="assets/jncia-junos-badge.png" alt="HPE JNCIA-Junos Certified Associate" width="110">
+  <a href="https://www.credly.com/badges/e5376b58-1848-4cb8-8b9a-ee32a6ad1a65/public_url"><img src="assets/jncia-junos-badge.png" alt="HPE JNCIA-Junos Certified Associate" width="110"></a>
   &nbsp;&nbsp;
-  <img src="assets/amd-rocm-badge.png" alt="AMD ROCm Certified Associate" width="110">
+  <a href="https://www.credly.com/badges/108ebacc-e498-498b-83f1-58f7ebb84bac/public_url"><img src="assets/terraform-associate-badge.png" alt="HashiCorp Certified: Terraform Associate (004)" width="110"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.credly.com/badges/75b9c09d-8ff1-4e77-b0ec-b56a134a1db6/public_url"><img src="assets/amd-rocm-badge.png" alt="AMD ROCm Certified Associate" width="110"></a>
 </p>
 
-- **Juniper Networks Certified Associate, Junos (JNCIA-Junos)**, Oct 2026
-- **AMD ROCm Certified Associate**, Oct 2026 – Oct 2028
+- **Juniper Networks Certified Associate, Junos (JNCIA-Junos)**, Oct 2026 – Oct 2029 · [Verify](https://www.credly.com/badges/e5376b58-1848-4cb8-8b9a-ee32a6ad1a65/public_url)
+- **HashiCorp Certified: Terraform Associate (004)**, Nov 2026 – Nov 2028 · [Verify](https://www.credly.com/badges/108ebacc-e498-498b-83f1-58f7ebb84bac/public_url)
+- **AMD ROCm Certified Associate**, Oct 2026 – Oct 2028 · [Verify](https://www.credly.com/badges/75b9c09d-8ff1-4e77-b0ec-b56a134a1db6/public_url)
 - Master Network Automation with Python for Network Engineers (Udemy)
 
 ## 📫 Contact
