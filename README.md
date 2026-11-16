@@ -11,6 +11,21 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
 - 🤖 Projects: multivendor EVPN-VXLAN automation with virtual Cisco NX-OS and Juniper Junos images, plus AWS–Azure networking in Terraform
 - 🧠 AI-assisted engineering: I use coding agents to support design and debugging, then check changes with automated tests, virtual-switch lab output, and recorded benchmarks
 
+## 📜 Certifications
+
+<p>
+  <a href="https://www.credly.com/badges/e5376b58-1848-4cb8-8b9a-ee32a6ad1a65/public_url"><img src="assets/jncia-junos-badge.png" alt="HPE JNCIA-Junos Certified Associate" width="110"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.credly.com/badges/108ebacc-e498-498b-83f1-58f7ebb84bac/public_url"><img src="assets/terraform-associate-badge.png" alt="HashiCorp Certified: Terraform Associate (004)" width="110"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.credly.com/badges/75b9c09d-8ff1-4e77-b0ec-b56a134a1db6/public_url"><img src="assets/amd-rocm-badge.png" alt="AMD ROCm Certified Associate" width="110"></a>
+</p>
+
+- **Juniper Networks Certified Associate, Junos (JNCIA-Junos)**, Oct 2026 – Oct 2029 · [Verify](https://www.credly.com/badges/e5376b58-1848-4cb8-8b9a-ee32a6ad1a65/public_url)
+- **HashiCorp Certified: Terraform Associate (004)**, Nov 2026 – Nov 2028 · [Verify](https://www.credly.com/badges/108ebacc-e498-498b-83f1-58f7ebb84bac/public_url)
+- **AMD ROCm Certified Associate**, Oct 2026 – Oct 2028 · [Verify](https://www.credly.com/badges/75b9c09d-8ff1-4e77-b0ec-b56a134a1db6/public_url)
+- Master Network Automation with Python for Network Engineers (Udemy)
+
 ## 🚀 Featured projects
 
 ### [FabricPilot: Multivendor EVPN-VXLAN Fabric Automation](https://github.com/Jeevanandh32/FabricPilot)
@@ -130,21 +145,6 @@ Co-run hands-on Linux labs for 20+ graduate students (Ubuntu, Bash scripting); w
 
 **R&D Intern**, boAt (Imagine Marketing), Bangalore, India · *Jan 2024 – May 2024*
 Prototyped C firmware for a TWS charging case (TI MSPM0L1306 MCU, SSD1306 OLED over I2C), managed in Git.
-
-## 📜 Certifications
-
-<p>
-  <a href="https://www.credly.com/badges/e5376b58-1848-4cb8-8b9a-ee32a6ad1a65/public_url"><img src="assets/jncia-junos-badge.png" alt="HPE JNCIA-Junos Certified Associate" width="110"></a>
-  &nbsp;&nbsp;
-  <a href="https://www.credly.com/badges/108ebacc-e498-498b-83f1-58f7ebb84bac/public_url"><img src="assets/terraform-associate-badge.png" alt="HashiCorp Certified: Terraform Associate (004)" width="110"></a>
-  &nbsp;&nbsp;
-  <a href="https://www.credly.com/badges/75b9c09d-8ff1-4e77-b0ec-b56a134a1db6/public_url"><img src="assets/amd-rocm-badge.png" alt="AMD ROCm Certified Associate" width="110"></a>
-</p>
-
-- **Juniper Networks Certified Associate, Junos (JNCIA-Junos)**, Oct 2026 – Oct 2029 · [Verify](https://www.credly.com/badges/e5376b58-1848-4cb8-8b9a-ee32a6ad1a65/public_url)
-- **HashiCorp Certified: Terraform Associate (004)**, Nov 2026 – Nov 2028 · [Verify](https://www.credly.com/badges/108ebacc-e498-498b-83f1-58f7ebb84bac/public_url)
-- **AMD ROCm Certified Associate**, Oct 2026 – Oct 2028 · [Verify](https://www.credly.com/badges/75b9c09d-8ff1-4e77-b0ec-b56a134a1db6/public_url)
-- Master Network Automation with Python for Network Engineers (Udemy)
 
 ## 📫 Contact
 
