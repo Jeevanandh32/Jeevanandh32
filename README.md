@@ -19,11 +19,14 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
   <a href="https://www.credly.com/badges/108ebacc-e498-498b-83f1-58f7ebb84bac/public_url"><img src="assets/terraform-associate-badge.png" alt="HashiCorp Certified: Terraform Associate (004)" width="110"></a>
   &nbsp;&nbsp;
   <a href="https://www.credly.com/badges/75b9c09d-8ff1-4e77-b0ec-b56a134a1db6/public_url"><img src="assets/amd-rocm-badge.png" alt="AMD ROCm Certified Associate" width="110"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.credly.com/badges/03a6de74-6eb8-4782-a961-c115e34026ed/public_url"><img src="assets/aws-application-networking-badge.png" alt="AWS Application Networking Demonstrated microcredential" width="110"></a>
 </p>
 
 - **Juniper Networks Certified Associate, Junos (JNCIA-Junos)**, Oct 2026 – Oct 2029 · [Verify](https://www.credly.com/badges/e5376b58-1848-4cb8-8b9a-ee32a6ad1a65/public_url)
 - **HashiCorp Certified: Terraform Associate (004)**, Nov 2026 – Nov 2028 · [Verify](https://www.credly.com/badges/108ebacc-e498-498b-83f1-58f7ebb84bac/public_url)
 - **AMD ROCm Certified Associate**, Oct 2026 – Oct 2028 · [Verify](https://www.credly.com/badges/75b9c09d-8ff1-4e77-b0ec-b56a134a1db6/public_url)
+- **AWS Application Networking Demonstrated** (microcredential, AWS Training and Certification), Nov 2026 – Nov 2027 · [Verify](https://www.credly.com/badges/03a6de74-6eb8-4782-a961-c115e34026ed/public_url)
 - Master Network Automation with Python for Network Engineers (Udemy)
 
 ## 🚀 Featured projects
