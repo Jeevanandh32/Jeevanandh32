@@ -188,6 +188,8 @@ Python/boto3 tool for credential validation and S3 bucket, object, multipart-upl
 
 ## 🧠 AI skills (used in my projects)
 
+<p align="center"><img src="assets/sections/ai-workflow.svg" width="100%" alt="How I use AI: 1 the agent drafts code, configs and tests; 2 the lab runs it on Cisco, Juniper, Arista and cloud; 3 tests and metrics; 4 I review; 5 ship or roll back. Failed checks go back to the agent. Evidence: MindBridge AI blocked 2 bad Terraform changes before apply; FabricPilot 54 tests and canary auto-rollback; ProbePulse operator-approved recovery"></p>
+
 | Skill | Where I used it |
 |---|---|
 | **Building with AI coding agents** | Built FabricPilot (Python, Jinja2, Ansible, 54 tests) and ProbePulse by directing an AI agent through design, code, tests and docs |
@@ -197,6 +199,11 @@ Python/boto3 tool for credential validation and S3 bucket, object, multipart-upl
 | **Predicting network failures** | MindBridge AI in CloudBridge: checks Terraform plans before apply, runs single-failure what-if sweeps, and warned 9–14 min before an injected loss ramp, with 0 false alarms; models corrected from measured tests |
 
 ## 🛠️ Skills
+
+<p align="center"><img src="assets/sections/skill-stack.svg" width="100%" alt="Skill stack: cloud (Transit Gateway, Site-to-Site VPN, PrivateLink, Route 53, EKS, Azure VPN Gateway, Azure DNS, Traffic Manager, AKS, GCP); automation (Python, Ansible, Terraform, NetBox, Netmiko, Jinja2, Bash, REST APIs, Git); routing and switching (OSPF, BGP, ECMP, EVPN-VXLAN, MPLS L3VPN, VLANs, STP, PIM-SSM, IGMPv3); security (IPsec, NAT, nftables, Sophos, ACLs, NetworkPolicy); platforms (Cisco IOS, NX-OS, Meraki, Junos, Arista EOS, Ubuntu, Docker, containerlab); observability (Prometheus, Grafana, SolarWinds, SNMP, Wireshark, tcpdump, ServiceNow)"></p>
+
+<details>
+<summary><b>Full skills list</b></summary>
 
 | Area | Tools and technologies |
 |---|---|
@@ -208,7 +215,11 @@ Python/boto3 tool for credential validation and S3 bucket, object, multipart-upl
 | **AI-assisted engineering** | AI coding agents, AI-assisted debugging and testing, human-in-the-loop automation |
 | **Cloud** | AWS (VPC, Transit Gateway, Site-to-Site VPN, PrivateLink, EKS, Route 53, S3, IAM, EC2, CloudFormation, boto3), Azure (VNet peering, VPN Gateway, Private Endpoint, Azure DNS, Traffic Manager, AKS, Monitor), Google Cloud (Compute Engine, Cloud Storage) |
 
+</details>
+
 ## 💼 Experience
+
+<p align="center"><img src="assets/sections/experience.svg" width="100%" alt="Experience timeline: R&D Intern at boAt, Jan to May 2024; Network Engineer co-op at Global Partners, Jan to Jun 2026, 300+ incidents across 890+ retail sites, 88% same-day; Graduate Teaching Assistant at Northeastern, Sep 2026 to present; MS Telecom Networks, Dec 2026"></p>
 
 **Graduate Teaching Assistant, Linux for Network Engineers**, Northeastern University · *Sep 2026 – Present*
 Co-run hands-on Linux labs for 20+ graduate students (Ubuntu, Bash scripting); write lab guides and troubleshoot student VM setups.
@@ -224,6 +235,10 @@ Prototyped C firmware for a TWS charging case (TI MSPM0L1306 MCU, SSD1306 OLED o
 
 ## 📫 Contact
 
-- **Portfolio:** [jeevanandh32.github.io](https://jeevanandh32.github.io)
-- **Email:** jeevanandhravi@gmail.com
-- **LinkedIn:** [linkedin.com/in/jeevanandhravi](https://www.linkedin.com/in/jeevanandhravi/)
+<p align="center">
+  <a href="https://jeevanandh32.github.io"><img src="assets/sections/contact-portfolio.svg" width="32%" alt="Portfolio: jeevanandh32.github.io"></a>
+  <a href="https://www.linkedin.com/in/jeevanandhravi/"><img src="assets/sections/contact-linkedin.svg" width="32%" alt="LinkedIn: in/jeevanandhravi"></a>
+  <a href="mailto:jeevanandhravi@gmail.com"><img src="assets/sections/contact-email.svg" width="32%" alt="Email: jeevanandhravi@gmail.com"></a>
+</p>
+
+<p align="center"><sub>jeevanandhravi@gmail.com · Boston, MA · open to relocation</sub></p>
