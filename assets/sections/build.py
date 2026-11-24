@@ -146,5 +146,5 @@ def button(label, value, color, glyph):
 (OUT / "experience.svg").write_text(experience())
 (OUT / "contact-portfolio.svg").write_text(button("PORTFOLIO", "jeevanandh32.github.io", "#38bdf8", "◎"))
 (OUT / "contact-linkedin.svg").write_text(button("LINKEDIN", "in/jeevanandhravi", "#60a5fa", "in"))
-(OUT / "contact-email.svg").write_text(button("EMAIL", ["jeevanandhravi@gmail.com", "jeevaravi24032@gmail.com"], "#4ade80", "@"))
+(OUT / "contact-email.svg").write_text(button("EMAIL", "jeevanandhravi@gmail.com", "#4ade80", "@"))
 print("wrote section graphics")

@@ -238,7 +238,7 @@ Prototyped C firmware for a TWS charging case (TI MSPM0L1306 MCU, SSD1306 OLED o
 <p align="center">
   <a href="https://jeevanandh32.github.io"><img src="assets/sections/contact-portfolio.svg" width="32%" alt="Portfolio: jeevanandh32.github.io"></a>
   <a href="https://www.linkedin.com/in/jeevanandhravi/"><img src="assets/sections/contact-linkedin.svg" width="32%" alt="LinkedIn: in/jeevanandhravi"></a>
-  <a href="mailto:jeevanandhravi@gmail.com"><img src="assets/sections/contact-email.svg" width="32%" alt="Email: jeevanandhravi@gmail.com or jeevaravi24032@gmail.com"></a>
+  <a href="mailto:jeevanandhravi@gmail.com"><img src="assets/sections/contact-email.svg" width="32%" alt="Email: jeevanandhravi@gmail.com"></a>
 </p>
 
-<p align="center"><sub>✉️ jeevanandhravi@gmail.com · jeevaravi24032@gmail.com · Boston, MA · open to relocation</sub></p>
+<p align="center"><sub>✉️ jeevanandhravi@gmail.com · Boston, MA · open to relocation</sub></p>
