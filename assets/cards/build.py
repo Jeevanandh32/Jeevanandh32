@@ -58,10 +58,17 @@ def card(kind, accent, featured, title, pitch, metric, caption, chips):
     a(f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="16" fill="url(#bg)" stroke="{accent}" '
       f'stroke-opacity="{0.9 if featured else 0.35}" stroke-width="{2.5 if featured else 1.5}"/>')
     a(f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="16" fill="url(#g)"/>')
+    a('<style>.arrow{animation:nudge 1.8s ease-in-out infinite}.glow{animation:glow 2.6s ease-in-out infinite}'
+      '@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}'
+      '@keyframes glow{0%,100%{stroke-opacity:.45}50%{stroke-opacity:1}}'
+      '@media (prefers-reduced-motion:reduce){.arrow,.glow{animation:none}}</style>')
     a(f'<rect x="1" y="34" width="6" height="64" rx="3" fill="{accent}"/>')
+    # light pulse travelling down the accent bar (decorative; the bar is always drawn)
+    a(f'<circle cx="4" cy="40" r="4" fill="#ffffff" opacity="0.85"><animate attributeName="cy" values="40;92;40" '
+      f'dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.2s" repeatCount="indefinite"/></circle>')
     a(f'<text x="30" y="46" font-size="13" font-weight="700" letter-spacing="2.5" fill="{accent}">{escape(kind)}</text>')
     if featured:
-        a(f'<rect x="{W - 130}" y="26" width="104" height="28" rx="14" fill="{accent}" fill-opacity="0.15" stroke="{accent}"/>')
+        a(f'<rect class="glow" x="{W - 130}" y="26" width="104" height="28" rx="14" fill="{accent}" fill-opacity="0.15" stroke="{accent}" stroke-width="1.5"/>')
         a(f'<text x="{W - 78}" y="45" font-size="13" font-weight="800" fill="{accent}" text-anchor="middle" letter-spacing="1">★ FEATURED</text>')
     a(f'<text x="28" y="88" font-size="31" font-weight="800" fill="#ffffff">{escape(title)}</text>')
     for i, line in enumerate(pitch):
@@ -75,7 +82,7 @@ def card(kind, accent, featured, title, pitch, metric, caption, chips):
         a(f'<text x="{x + w / 2}" y="269" font-size="13" fill="#dbe4f0" text-anchor="middle" '
           f'font-family="SFMono-Regular, Menlo, Consolas, monospace">{escape(c)}</text>')
         x += w + 10
-    a(f'<text x="{W - 26}" y="{H - 22}" font-size="20" fill="{accent}" text-anchor="end">→</text>')
+    a(f'<g class="arrow"><text x="{W - 26}" y="{H - 22}" font-size="20" fill="{accent}" text-anchor="end">→</text></g>')
     a('</svg>')
     return "".join(p)
 
