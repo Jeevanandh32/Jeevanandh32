@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Jeevanandh Ravi: Network Engineer, cloud networking and automation. Featured projects: CloudBridge (36.4 s failover with Route 53 down), FabricPilot (canary, health gate, rollback), TradeHunt (18 of 18 blind diagnoses)">
+  <img src="assets/header.svg?v=2" width="100%" alt="Jeevanandh Ravi: Network Engineer, cloud networking and automation. Featured projects: CloudBridge (36.4 s failover with Route 53 down), FabricPilot (canary, health gate, rollback), TradeHunt (18 of 18 blind diagnoses)">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
 - 🧠 AI-assisted engineering: I use coding agents to support design and debugging, then check changes with automated tests, virtual-switch lab output, and recorded benchmarks
 
 <p align="center">
-  <img src="assets/traceroute.svg" width="100%" alt="traceroute of my career: 1 northeastern.edu, MS Telecom Networks and TA; 2 global-partners.wan, 890+ retail sites, 300+ incidents, 88% same-day; 3 cloudbridge.aws-azure, 4 IPsec/eBGP tunnels, 36.4 s DNS failover with Route 53 down; 4 fabricpilot.evpn, canary rollout and auto-rollback, 54 tests; 5 tradehunt.multicast, 18/18 blind diagnoses; 6 your team: cloud and network engineer roles">
+  <img src="assets/traceroute.svg?v=2" width="100%" alt="traceroute of my career: 1 northeastern.edu, MS Telecom Networks and TA; 2 global-partners.wan, 890+ retail sites, 300+ incidents, 88% same-day; 3 cloudbridge.aws-azure, 4 IPsec/eBGP tunnels, 36.4 s DNS failover with Route 53 down; 4 fabricpilot.evpn, canary rollout and auto-rollback, 54 tests; 5 tradehunt.multicast, 18/18 blind diagnoses; 6 your team: cloud and network engineer roles">
 </p>
 
 ## 📜 Certifications
