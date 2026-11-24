@@ -8,7 +8,7 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
 
 - 🛠️ Network Engineer co-op at **Global Partners**: resolved 300+ WAN, LAN, Wi-Fi and POS incidents across 890+ retail sites, with 88% resolved the same day
 - 🎓 Graduate Teaching Assistant, **Linux for Network Engineers**, Northeastern University
-- 🤖 Projects: multivendor EVPN-VXLAN automation with virtual Cisco NX-OS and Juniper Junos images, plus AWS–Azure networking in Terraform
+- 🤖 Projects: multi-cloud AWS–Azure hub-and-spoke networking in Terraform, multivendor EVPN-VXLAN automation with virtual Cisco NX-OS and Juniper Junos images, and market-data multicast troubleshooting on Arista
 - 🧠 AI-assisted engineering: I use coding agents to support design and debugging, then check changes with automated tests, virtual-switch lab output, and recorded benchmarks
 
 ## 📜 Certifications
@@ -31,6 +31,30 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
 
 ## 🚀 Featured projects
 
+### [CloudBridge: Multi-Cloud Hub-and-Spoke Network on AWS + Azure](https://github.com/Jeevanandh32/CloudBridge)
+
+[![CloudBridge](https://github.com/Jeevanandh32/CloudBridge/raw/main/docs/cover.png)](https://jeevanandh32.github.io/cloudbridge-demo.html)
+
+An active-passive network across AWS and Azure, built in Terraform:
+- **AWS:** a Transit Gateway hub with inspection firewalls.
+- **Azure:** a hub VNet with a firewall VM and a peered AKS spoke.
+- **Between them:** a 4-tunnel active-active IPsec/eBGP VPN with ECMP.
+- **DNS:** served by both Route 53 and Azure DNS/Traffic Manager.
+
+Six controlled failure tests, each measured ([results](https://github.com/Jeevanandh32/CloudBridge#results)):
+
+- **DNS:** with every Route 53 name server unreachable, Azure DNS answered 304 of 304 lookups and users failed over in 36.4 s.
+- **Region loss:** with the app and all four tunnels cut, users reached Azure in 41.7 s (102 s in the earlier single-provider build).
+- **BGP:** a configuration break on one tunnel dropped no packets across 16 test flows. A VPN gateway instance reset paused 38% of flows for 22–31 s, with no full outage.
+- **Failures that look healthy, found and fixed:**
+  - a missing Transit Gateway route that blackholed traffic;
+  - /28 fragmentation that stalled an EKS rollout (custom networking then took pods from 18 to 204);
+  - an AKS inbound path dropped by the node security group.
+- **MindBridge AI:** a read-only Python tool I built that checks Terraform plans before apply and warned 9–14 minutes before an injected packet-loss ramp crossed 5 %, with no false alarms.
+- `Terraform` `AWS Transit Gateway` `Site-to-Site VPN` `Azure VPN Gateway` `IPsec/IKEv2` `BGP/ECMP` `EKS` `AKS/Cilium` `Route 53` `Azure DNS` `Traffic Manager` `nftables` `Python`
+
+▶️ [Watch the 2-minute demo](https://jeevanandh32.github.io/cloudbridge-demo.html)
+
 ### [FabricPilot: Multivendor EVPN-VXLAN Fabric Automation](https://github.com/Jeevanandh32/FabricPilot)
 
 [![FabricPilot demo](https://github.com/Jeevanandh32/FabricPilot/raw/main/docs/demo-poster.png)](https://github.com/Jeevanandh32/FabricPilot/blob/main/docs/fabricpilot-short.mp4)
@@ -46,14 +70,22 @@ One source of truth (NetBox/YAML) drives Cisco NX-OS and Juniper Junos configs. 
 
 ▶️ [Watch the 2-minute demo](https://github.com/Jeevanandh32/FabricPilot/blob/main/docs/fabricpilot-short.mp4)
 
-### [CloudBridge: AWS–Azure Networking and Failover](https://github.com/Jeevanandh32/CloudBridge)
+### [TradeHunt: Market-Data Feed Troubleshooting on Redundant Multicast](https://github.com/Jeevanandh32/TradeHunt)
 
-Terraform provisions AWS and Azure networks, EKS/AKS applications, two IPsec/IKEv2 tunnels with BGP, and Route 53 failover to a warm standby. Controlled failure tests are documented with [raw data and analysis](https://github.com/Jeevanandh32/CloudBridge/blob/main/docs/results.md).
+[![TradeHunt](https://github.com/Jeevanandh32/TradeHunt/raw/main/docs/cover.png)](https://jeevanandh32.github.io/tradehunt-demo.html)
 
-- Measured 77–107 s client failover across three AWS application-loss tests and 68–78 s DNS failback after negative-cache tuning
-- Observed a 0.8 s longest ping-reply gap, with nine unanswered probes, during one active-tunnel BGP failure test
-- Measured path MTU and gateway MSS clamping; investigated route propagation, NACL return traffic, and load-balancer errors
-- `Terraform` `AWS` `Azure` `EKS` `AKS` `IPsec/IKEv2` `BGP` `Route 53` `CloudWatch` `Azure Monitor`
+Rebuilds how exchanges deliver market data:
+- **Feeds:** redundant A/B multicast feeds over four Arista cEOS switches.
+- **Data:** real Nasdaq TotalView-ITCH data, replayed at 1/10 speed.
+- **Incidents:** each failure is diagnosed the way a market-data support engineer would.
+
+Six injected incidents, a silent-feed alert in 6.1–7.0 s, and a diagnostic tool that was correct in 18 of 18 blind runs ([results](https://github.com/Jeevanandh32/TradeHunt/blob/main/RESULTS.md)).
+
+- `Arista EOS` `PIM-SSM` `IGMPv3` `OSPF` `MoldUDP64` `Python` `Prometheus` `Grafana`
+
+▶️ [Watch the 2-minute demo](https://jeevanandh32.github.io/tradehunt-demo.html)
+
+## 📂 More projects
 
 ### [Sophos Firewall Site-to-Site VPN Lab on AWS](https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab)
 
@@ -68,8 +100,6 @@ Two Sophos Firewalls (SFOS v22) in separate AWS VPCs, each protecting an Ubuntu 
 - `Sophos Firewall` `IPsec/IKEv2` `NAT` `Web filtering` `Terraform` `CloudFormation` `AWS VPC/EC2` `tcpdump`
 
 ▶️ [Watch the 1-minute walkthrough](https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab/blob/main/docs/sophos-s2s-vpn-demo.mp4)
-
-## 📂 More projects
 
 ### [ProbePulse: Container Network Observability & Recovery](https://github.com/Jeevanandh32/ProbePulse)
 
@@ -122,18 +152,19 @@ Python/boto3 tool for credential validation and S3 bucket, object, multipart-upl
 | **Verifying AI output** | Checked generated configuration and code against virtual Cisco/Juniper lab output, automated tests, and recorded measurements |
 | **AI-assisted troubleshooting** | Used AI to analyze device output and logs while investigating documented CLI and Cisco/Juniper EVPN interoperability issues |
 | **Human-in-the-loop automation** | Kept people in control: operator-approved remediation in ProbePulse; changes, commits and deployments approved by me first |
+| **Predicting network failures** | MindBridge AI in CloudBridge: checks Terraform plans before apply, runs single-failure what-if sweeps, and warned 9–14 min before an injected loss ramp, with 0 false alarms; models corrected from measured tests |
 
 ## 🛠️ Skills
 
 | Area | Tools and technologies |
 |---|---|
-| **Networking** | TCP/IP, IPv4/IPv6 subnetting, VLANs, 802.1Q, STP/RSTP, OSPF, BGP, DHCP, DNS, NAT/PAT, MPLS, EVPN-VXLAN, IPsec/IKEv2 site-to-site VPN |
-| **Network platforms** | Cisco IOS/IOS XE, Cisco NX-OS, Cisco Meraki Dashboard, Junos OS, Sophos Firewall (SFOS) |
+| **Networking** | TCP/IP, IPv4/IPv6 subnetting, VLANs, 802.1Q, STP/RSTP, OSPF, BGP, ECMP, DHCP, DNS, NAT/PAT, MPLS, EVPN-VXLAN, IPsec/IKEv2 site-to-site VPN, multicast (PIM-SSM, IGMPv3) |
+| **Network platforms** | Cisco IOS/IOS XE, Cisco NX-OS, Cisco Meraki Dashboard, Junos OS, Arista EOS, Sophos Firewall (SFOS), Linux nftables firewalls |
 | **Automation** | Python, Bash, Ansible, Terraform, Netmiko, NetBox, Jinja2, YAML, REST APIs, JSON, Git, Bitbucket |
 | **Systems** | Ubuntu Linux, VMware, Docker, Docker Compose, containerlab |
 | **Monitoring & troubleshooting** | SolarWinds Orion, SNMP, Prometheus, Grafana, ServiceNow, Wireshark, tcpdump |
 | **AI-assisted engineering** | AI coding agents, AI-assisted debugging and testing, human-in-the-loop automation |
-| **Cloud** | AWS (VPC, EKS, Route 53, S3, IAM, EC2, CloudFormation, boto3), Azure (VNet, AKS, VPN Gateway, Monitor), Google Cloud (Compute Engine, Cloud Storage) |
+| **Cloud** | AWS (VPC, Transit Gateway, Site-to-Site VPN, PrivateLink, EKS, Route 53, S3, IAM, EC2, CloudFormation, boto3), Azure (VNet peering, VPN Gateway, Private Endpoint, Azure DNS, Traffic Manager, AKS, Monitor), Google Cloud (Compute Engine, Cloud Storage) |
 
 ## 💼 Experience
 
