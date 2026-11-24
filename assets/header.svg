@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title>Jeevanandh Ravi: Network Engineer, cloud networking and network automation</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0d1b33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <path id="l1" d="M 900 170 L 800 136"/>
+    <path id="l2" d="M 900 170 L 1040 120"/>
+    <path id="l3" d="M 900 170 L 1040 240"/>
+    <path id="l4" d="M 890 96 L 1040 96"/>
+    <style>
+      .eyebrow { font-size: 15px; font-weight: 700; letter-spacing: 3px; fill: #7dd3fc; }
+      .name { font-size: 58px; font-weight: 800; fill: #ffffff; }
+      .tag { font-size: 20px; fill: #cbd5e1; }
+      .meta { font-size: 15px; fill: #94a3b8; }
+      .node { font-size: 15px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+      .stat { font-size: 12.5px; fill: #9fb3cf; text-anchor: middle; }
+      .link { stroke: #335178; stroke-width: 2; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 900px 170px; }
+      .fade { opacity: 0; animation: fadein 0.8s ease-out forwards; }
+      .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.35s; } .d3 { animation-delay: 0.6s; } .d4 { animation-delay: 0.85s; }
+      @keyframes pulse { 0%, 100% { opacity: 0.55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.12); } }
+      @keyframes fadein { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+      @media (prefers-reduced-motion: reduce) { .pulse, .fade { animation: none; opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="330" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="330" rx="18" fill="url(#grid)"/>
+
+  <!-- left: who -->
+  <g class="fade d1"><text x="56" y="88" class="eyebrow">NETWORK ENGINEER · CLOUD NETWORKING · AUTOMATION</text></g>
+  <g class="fade d2"><text x="52" y="160" class="name">Jeevanandh Ravi</text></g>
+  <g class="fade d3">
+    <text x="56" y="204" class="tag">I build networks, inject real failures,</text>
+    <text x="56" y="232" class="tag">and measure what users actually see.</text>
+  </g>
+  <g class="fade d4"><text x="56" y="282" class="meta">MS Telecom Networks @ Northeastern · JNCIA-Junos · Terraform Associate · Boston, MA</text></g>
+
+  <!-- right: topology -->
+  <circle cx="900" cy="170" r="70" fill="url(#glow)" class="pulse"/>
+  <line x1="900" y1="170" x2="800" y2="136" class="link"/>
+  <line x1="900" y1="170" x2="1040" y2="120" class="link"/>
+  <line x1="900" y1="170" x2="1040" y2="240" class="link"/>
+  <line x1="890" y1="96" x2="1040" y2="96" class="link" stroke-dasharray="5 6" stroke-opacity="0.6"/>
+
+  <!-- packets -->
+  <circle r="5" fill="#ff9900"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#l1"/></animateMotion></circle>
+  <circle r="5" fill="#38bdf8"><animateMotion dur="3.1s" begin="0.7s" repeatCount="indefinite"><mpath href="#l2"/></animateMotion></circle>
+  <circle r="5" fill="#a78bfa"><animateMotion dur="2.8s" begin="1.3s" repeatCount="indefinite"><mpath href="#l3"/></animateMotion></circle>
+  <circle r="4" fill="#4ade80"><animateMotion dur="4.2s" begin="0.4s" repeatCount="indefinite"><mpath href="#l4"/></animateMotion></circle>
+
+  <!-- core -->
+  <rect x="868" y="146" width="64" height="48" rx="10" fill="#0f2a4a" stroke="#38bdf8" stroke-width="2"/>
+  <text x="900" y="176" class="node" font-size="13">core</text>
+
+  <!-- project nodes -->
+  <rect x="680" y="56" width="210" height="80" rx="10" fill="#2a1d08" stroke="#ff9900" stroke-width="2"/>
+  <text x="785" y="81" class="node">CloudBridge</text>
+  <text x="785" y="101" class="stat" fill="#f5c27a">AWS ⇄ Azure</text>
+  <text x="785" y="122" class="stat" font-weight="600" fill="#e2e8f0">36.4 s failover, Route 53 down</text>
+  <rect x="1040" y="56" width="210" height="80" rx="10" fill="#08243a" stroke="#38bdf8" stroke-width="2"/>
+  <text x="1145" y="81" class="node">FabricPilot</text>
+  <text x="1145" y="101" class="stat" fill="#9fb3cf">EVPN-VXLAN</text>
+  <text x="1145" y="122" class="stat" font-weight="600" fill="#e2e8f0">canary → gate → rollback</text>
+  <rect x="1040" y="214" width="210" height="80" rx="10" fill="#1d1538" stroke="#a78bfa" stroke-width="2"/>
+  <text x="1145" y="239" class="node">TradeHunt</text>
+  <text x="1145" y="259" class="stat" fill="#9fb3cf">A/B multicast</text>
+  <text x="1145" y="280" class="stat" font-weight="600" fill="#e2e8f0">18 / 18 blind diagnoses</text>
+</svg>

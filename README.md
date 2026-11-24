@@ -1,8 +1,13 @@
-# 👋 Hi, I'm Jeevanandh Ravi
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Jeevanandh Ravi: Network Engineer, cloud networking and automation. Featured projects: CloudBridge (36.4 s failover with Route 53 down), FabricPilot (canary, health gate, rollback), TradeHunt (18 of 18 blind diagnoses)">
+</p>
 
-**Network Engineer · Network Automation · Cloud Networking · Cisco & Juniper**
-MS in Telecommunication Networks, Northeastern University (Dec 2026) · JNCIA-Junos · Terraform Associate · Boston, MA (open to relocation)
-🌐 **Portfolio:** [jeevanandh32.github.io](https://jeevanandh32.github.io)
+<p align="center">
+  <a href="https://jeevanandh32.github.io"><b>🌐 Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/jeevanandhravi/"><b>💼 LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://jeevanandh32.github.io/cloudbridge-demo.html"><b>▶ CloudBridge demo</b></a> &nbsp;·&nbsp;
+  <a href="https://jeevanandh32.github.io/tradehunt-demo.html"><b>▶ TradeHunt demo</b></a>
+</p>
 
 I work on enterprise network troubleshooting and deployment. My lab projects explore validated configuration changes, staged rollouts, health checks, rollback, and cloud-network recovery under injected failures.
 
@@ -10,6 +15,10 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
 - 🎓 Graduate Teaching Assistant, **Linux for Network Engineers**, Northeastern University
 - 🤖 Projects: multi-cloud AWS–Azure hub-and-spoke networking in Terraform, multivendor EVPN-VXLAN automation with virtual Cisco NX-OS and Juniper Junos images, and market-data multicast troubleshooting on Arista
 - 🧠 AI-assisted engineering: I use coding agents to support design and debugging, then check changes with automated tests, virtual-switch lab output, and recorded benchmarks
+
+<p align="center">
+  <img src="assets/traceroute.svg" width="100%" alt="traceroute of my career: 1 northeastern.edu, MS Telecom Networks and TA; 2 global-partners.wan, 890+ retail sites, 300+ incidents, 88% same-day; 3 cloudbridge.aws-azure, 4 IPsec/eBGP tunnels, 36.4 s DNS failover with Route 53 down; 4 fabricpilot.evpn, canary rollout and auto-rollback, 54 tests; 5 tradehunt.multicast, 18/18 blind diagnoses; 6 your team: cloud and network engineer roles">
+</p>
 
 ## 📜 Certifications
 
