@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg?v=2" width="100%" alt="Jeevanandh Ravi: Network Engineer, cloud networking and automation. Featured projects: CloudBridge (36.4 s failover with Route 53 down), FabricPilot (canary, health gate, rollback), TradeHunt (18 of 18 blind diagnoses)">
+  <img src="assets/banner.svg" width="100%" alt="Jeevanandh Ravi: Network Engineer, cloud networking and automation. Featured projects: CloudBridge (36.4 s failover with Route 53 down), FabricPilot (canary, health gate, rollback), TradeHunt (18 of 18 blind diagnoses)">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
 - 🧠 AI-assisted engineering: I use coding agents to support design and debugging, then check changes with automated tests, virtual-switch lab output, and recorded benchmarks
 
 <p align="center">
-  <img src="assets/traceroute.svg?v=2" width="100%" alt="traceroute of my career: 1 northeastern.edu, MS Telecom Networks and TA; 2 global-partners.wan, 890+ retail sites, 300+ incidents, 88% same-day; 3 cloudbridge.aws-azure, 4 IPsec/eBGP tunnels, 36.4 s DNS failover with Route 53 down; 4 fabricpilot.evpn, canary rollout and auto-rollback, 54 tests; 5 tradehunt.multicast, 18/18 blind diagnoses; 6 your team: cloud and network engineer roles">
+  <img src="assets/career-traceroute.svg" width="100%" alt="traceroute of my career: 1 northeastern.edu, MS Telecom Networks and TA; 2 global-partners.wan, 890+ retail sites, 300+ incidents, 88% same-day; 3 cloudbridge.aws-azure, 4 IPsec/eBGP tunnels, 36.4 s DNS failover with Route 53 down; 4 fabricpilot.evpn, canary rollout and auto-rollback, 54 tests; 5 tradehunt.multicast, 18/18 blind diagnoses; 6 your team: cloud and network engineer roles">
 </p>
 
 ## 📜 Certifications
@@ -38,7 +38,35 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
 - **AWS Application Networking Demonstrated** (microcredential, AWS Training and Certification), Nov 2026 – Nov 2027 · [Verify](https://www.credly.com/badges/03a6de74-6eb8-4782-a961-c115e34026ed/public_url)
 - Master Network Automation with Python for Network Engineers (Udemy)
 
-## 🚀 Featured projects
+## 🚀 Projects
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/CloudBridge"><img src="assets/cards/cloudbridge.svg" width="100%" alt="CloudBridge: multi-cloud hub-and-spoke on AWS and Azure; 36.4 s failover with Route 53 unreachable"></a></td>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/FabricPilot"><img src="assets/cards/fabricpilot.svg" width="100%" alt="FabricPilot: Cisco and Juniper EVPN-VXLAN automation; 54 tests; canary, health gate, auto-rollback"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/TradeHunt"><img src="assets/cards/tradehunt.svg" width="100%" alt="TradeHunt: A/B multicast feeds on Arista with real Nasdaq data; 18 of 18 blind diagnoses correct"></a></td>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab"><img src="assets/cards/sophos.svg" width="100%" alt="Sophos site-to-site VPN lab on AWS; 14 of 14 validation tests passed"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/ProbePulse"><img src="assets/cards/probepulse.svg" width="100%" alt="ProbePulse: container network observability; 36.95 s median alert detection, 351 ms recovery"></a></td>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/Multi-Location-Network-Design-and-Implementation-using-Cisco-Packet-Tracer"><img src="assets/cards/multisite.svg" width="100%" alt="HA multi-site network: 5 sites, 8 routers, 11 switches; OSPF, EIGRP, GRE, HSRP"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/Advanced-Network-Configuration-Troubleshooting"><img src="assets/cards/mpls.svg" width="100%" alt="Multi-AS BGP and MPLS L3VPN lab: AS 100 core, AS 65001 and 65002 customers"></a></td>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/Adhoc-Network-Infrastructure-using-Linux"><img src="assets/cards/linux.svg" width="100%" alt="Linux network infrastructure: BIND9 DNS, strongSwan IPsec, automated backups"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/AWS-S3-Connectivity-Tester"><img src="assets/cards/awss3.svg" width="100%" alt="AWS S3 diagnostic automation with Python and boto3, JSON report"></a></td>
+    <td width="50%"><a href="https://github.com/Jeevanandh32?tab=repositories"><img src="assets/cards/earlier.svg" width="100%" alt="Earlier Python networking projects: RSA encrypted chat and a multi-threaded TCP client-server"></a></td>
+  </tr>
+</table>
+
+<p align="center">▶ Demos: <a href="https://jeevanandh32.github.io/cloudbridge-demo.html"><b>CloudBridge</b></a> · <a href="https://github.com/Jeevanandh32/FabricPilot/blob/main/docs/fabricpilot-short.mp4"><b>FabricPilot</b></a> · <a href="https://jeevanandh32.github.io/tradehunt-demo.html"><b>TradeHunt</b></a> · <a href="https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab/blob/main/docs/sophos-s2s-vpn-demo.mp4"><b>Sophos VPN</b></a></p>
+
+<details>
+<summary><b>📖 Featured project details: CloudBridge, FabricPilot, TradeHunt</b></summary>
 
 ### [CloudBridge: Multi-Cloud Hub-and-Spoke Network on AWS + Azure](https://github.com/Jeevanandh32/CloudBridge)
 
@@ -94,7 +122,10 @@ Six injected incidents, a silent-feed alert in 6.1–7.0 s, and a diagnostic too
 
 ▶️ [Watch the 2-minute demo](https://jeevanandh32.github.io/tradehunt-demo.html)
 
-## 📂 More projects
+</details>
+
+<details>
+<summary><b>📂 More project details</b></summary>
 
 ### [Sophos Firewall Site-to-Site VPN Lab on AWS](https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab)
 
@@ -150,6 +181,8 @@ Python/boto3 tool for credential validation and S3 bucket, object, multipart-upl
 
 - [Secure Communication Using RSA Encryption](https://github.com/Jeevanandh32/Secure-Communication-Using-RSA-Encryption): Python RSA key exchange and encrypted client-server chat
 - [Socket Programming in Python](https://github.com/Jeevanandh32/SOCKET-PROGRAMMING-IN-PYTHON)
+
+</details>
 
 </details>
 
