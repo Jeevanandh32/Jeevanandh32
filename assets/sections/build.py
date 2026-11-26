@@ -106,8 +106,8 @@ def experience():
     y = 152
     b.append(f'<line x1="70" y1="{y}" x2="1210" y2="{y}" stroke="#334155" stroke-width="3"/>')
     stops = [(150, "Jan – May 2024", "R&D Intern", "boAt · Bangalore", ["C firmware, TWS charging case", "TI MSP MCU · OLED over I2C"], "#94a3b8"),
-             (470, "Jan – Jun 2026", "Network Engineer (Co-op)", "Global Partners · Waltham, MA", ["300+ incidents · 890+ retail sites", "88% same-day · 60+ carrier escalations"], "#38bdf8"),
-             (800, "Sep 2026 – present", "Graduate Teaching Assistant", "Northeastern · Linux for Network Engineers", ["Labs for 20+ graduate students", "lab guides · VM troubleshooting"], "#4ade80"),
+             (470, "Jan – Jun 2026", "Network Engineer (Co-op)", "Global Partners · Newton, MA", ["300+ incidents · 890+ retail sites", "88% same-day · 60+ carrier escalations"], "#38bdf8"),
+             (800, "Sep 2026 – present", "Graduate Teaching Assistant", "Northeastern · Linux for Network Engineers", ["Labs for 25+ graduate students", "lab guides · VM troubleshooting"], "#4ade80"),
              (1110, "Dec 2026", "MS Telecom Networks", "Northeastern University", ["JNCIA-Junos · Terraform Associate", "open to relocation"], "#a78bfa")]
     b.append(f'<circle cy="{y}" r="5" fill="#ffffff" opacity="0.85"><animate attributeName="cx" values="70;1210" dur="6s" repeatCount="indefinite"/></circle>')
     b.append(f'<circle class="ring" cx="800" cy="{y}" r="11" fill="none" stroke="#4ade80" stroke-width="3"/>')

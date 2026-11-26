@@ -11,7 +11,7 @@
 
 I work on enterprise network troubleshooting and deployment. My lab projects explore validated configuration changes, staged rollouts, health checks, rollback, and cloud-network recovery under injected failures.
 
-- 🛠️ Network Engineer co-op at **Global Partners**: resolved 300+ WAN, LAN, Wi-Fi and POS incidents across 890+ retail sites, with 88% resolved the same day
+- 🛠️ Network Engineer co-op at **Global Partners**: resolved 300+ WAN, LAN, Wi-Fi and POS incidents across 890+ retail sites at a 0.89-day MTTR, 90% without reassignment
 - 🎓 Graduate Teaching Assistant, **Linux for Network Engineers**, Northeastern University
 - 🤖 Projects: multi-cloud AWS–Azure hub-and-spoke networking in Terraform, multivendor EVPN-VXLAN automation with virtual Cisco NX-OS and Juniper Junos images, and market-data multicast troubleshooting on Arista
 - 🧠 AI-assisted engineering: I use coding agents to support design and debugging, then check changes with automated tests, virtual-switch lab output, and recorded benchmarks
@@ -226,16 +226,21 @@ Python/boto3 tool for credential validation and S3 bucket, object, multipart-upl
 <p align="center"><img src="assets/sections/experience.svg" width="100%" alt="Experience timeline: R&D Intern at boAt, Jan to May 2024; Network Engineer co-op at Global Partners, Jan to Jun 2026, 300+ incidents across 890+ retail sites, 88% same-day; Graduate Teaching Assistant at Northeastern, Sep 2026 to present; MS Telecom Networks, Dec 2026"></p>
 
 **Graduate Teaching Assistant, Linux for Network Engineers**, Northeastern University · *Sep 2026 – Present*
-Co-run hands-on Linux labs for 20+ graduate students (Ubuntu, Bash scripting); write lab guides and troubleshoot student VM setups.
+- Co-run hands-on Linux labs for 25+ graduate students: Ubuntu, Bash, and grep/awk/sed
+- Write step-by-step lab guides and code samples; troubleshoot students' Windows and macOS VM setups live during labs
 
-**Network Engineer (Co-op)**, Global Partners, Waltham, MA · *Jan 2026 – Jun 2026*
-- Tier 1/2 investigations: 300+ WAN, LAN, Wi-Fi and POS incidents across 890+ retail sites, 88% resolved the same day
-- Configured Cisco routers and switches and provisioned Meraki APs and cellular gateways (VLANs, access/trunk ports, IP addressing, DHCP)
-- Isolated VLAN mismatches, port-security violations, DHCP errors and DMVPN faults; upgraded Cisco IOS/IOS XE
-- Coordinated 60+ carrier escalations; configured RPDU/UPS remote management and fusion-spliced fiber in a company-owned data center
+**Network Engineer (Co-op)**, Global Partners, Newton, MA · *Jan 2026 – Jun 2026*
+- Kept an 890+ site retail network running: resolved 300+ WAN, LAN, Wi-Fi and POS incidents at a **0.89-day MTTR**, with 88% resolved the same day and **90% without reassignment**, documenting each fix in ServiceNow
+- Isolated Layer 1–3 root causes on Cisco ISR routers and switches (VLAN mismatches, port-security violations, DHCP errors, DMVPN tunnel failures) using SolarWinds Orion, IP SLA, ARP/MAC tables and interface counters
+- Drove **60+ ISP and carrier escalations** to restoration and handled **50+ after-hours outages** on call, coordinating onsite technicians and store managers until service returned
+- Configured Cisco routers, switches and Meraki APs for new-site deployments (VLANs, trunks, DHCP, DMVPN, EIGRP, ACLs, voice VLANs with QoS), validating connectivity before go-live
+- Supported the Cradlepoint-to-Meraki cellular backup migration: provisioned MG52E gateways and verified failover when the primary circuit dropped
+- Prepared new Cisco ISR routers for rollout (IOS upgrades, security licenses) and set up network access for PDU/RPDU and UPS units
+- Built a replica site lab and trained **7 IT engineers** to handle Layer 1 support, freeing the network team for Layer 2/3 work
 
 **R&D Intern**, boAt (Imagine Marketing), Bangalore, India · *Jan 2024 – May 2024*
-Prototyped C firmware for a TWS charging case (TI MSPM0L1306 MCU, SSD1306 OLED over I2C), managed in Git.
+- Prototyped and debugged C firmware for a TWS earbud charging case (TI MSPM0L1306 MCU, SSD1306 OLED over I2C), versioned in Git
+- Documented test and debugging procedures with the hardware, QA and product teams
 
 ## 📫 Contact
 
