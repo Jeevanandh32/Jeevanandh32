@@ -46,7 +46,7 @@ I work on enterprise network troubleshooting and deployment. My lab projects exp
     <td width="50%"><a href="https://github.com/Jeevanandh32/FabricPilot"><img src="assets/cards/fabricpilot.svg" width="100%" alt="FabricPilot: Cisco and Juniper EVPN-VXLAN automation; 54 tests; canary, health gate, auto-rollback"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/Jeevanandh32/TradeHunt"><img src="assets/cards/tradehunt.svg" width="100%" alt="TradeHunt: A/B multicast feeds on Arista with real Nasdaq data; 18 of 18 blind diagnoses correct"></a></td>
+    <td width="50%"><a href="https://github.com/Jeevanandh32/TradeHunt"><img src="assets/cards/tradehunt.svg" width="100%" alt="TradeHunt: A/B multicast feeds on Arista with real Nasdaq data, plus feedscope, a capture analyzer; 18 of 18 blind diagnoses correct; capture loss count within 0.05% of the feed handler"></a></td>
     <td width="50%"><a href="https://github.com/Jeevanandh32/sophos-firewall-site-to-site-vpn-lab"><img src="assets/cards/sophos.svg" width="100%" alt="Sophos site-to-site VPN lab on AWS; 14 of 14 validation tests passed"></a></td>
   </tr>
   <tr>
