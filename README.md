@@ -118,7 +118,11 @@ Rebuilds how exchanges deliver market data:
 
 Six injected incidents, a silent-feed alert in 6.1–7.0 s, and a diagnostic tool that was correct in 18 of 18 blind runs ([results](https://github.com/Jeevanandh32/TradeHunt/blob/main/RESULTS.md)).
 
-- `Arista EOS` `PIM-SSM` `IGMPv3` `OSPF` `MoldUDP64` `Python` `Prometheus` `Grafana`
+**feedscope**, a feed-quality and microburst analyzer for any MoldUDP64 packet capture:
+- **Microbursts:** on the real Nasdaq open at full speed, the busiest 1 ms ran at 47,000 packets/s per feed, 2.3× the busiest second. A consumer that keeps up with the busiest second still needs about 1 MB of buffer per socket.
+- **Accuracy:** found injected loss exactly, even with packets reordered. On a real lab capture, its feed A loss count matched the feed handler's own count within 0.05%.
+
+- `Arista EOS` `PIM-SSM` `IGMPv3` `OSPF` `MoldUDP64` `Python` `Prometheus` `Grafana` `tcpdump`
 
 ▶️ [Watch the 2-minute demo](https://jeevanandh32.github.io/tradehunt-demo.html)
 
